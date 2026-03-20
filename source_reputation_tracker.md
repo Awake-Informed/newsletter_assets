@@ -37,18 +37,16 @@
 
 | Source | URL | Added | Notes |
 |---|---|---|---|
-| The New Stack | thenewstack.io | Mar 2026 | AI engineering, DevOps, cloud — bypassed by general search |
+| The New Stack | thenewstack.io | Mar 2026 | AI engineering, DevOps, cloud — no qualifying articles Mar 20 |
 | VentureBeat | venturebeat.com | Mar 2026 | AI business & enterprise, strong original reporting |
-| MIT Technology Review | technologyreview.com | Mar 2026 | AI research, academic rigour |
-| Ars Technica | arstechnica.com | Mar 2026 | In-depth AI & tech, strong editorial standards |
-| Wired | wired.com | Mar 2026 | AI culture, ethics, business — long-form original |
-| Import AI (Jack Clark) | importai.substack.com | Mar 2026 | Weekly AI research summaries — highly respected |
+| MIT Technology Review | technologyreview.com | Mar 2026 | AI research, academic rigour — MIT News (news.mit.edu) used as adjacent source |
+| Ars Technica | arstechnica.com | Mar 2026 | Domain blocked by crawler — unable to search |
+| Wired | wired.com | Mar 2026 | Domain blocked by crawler — unable to search |
+| Import AI (Jack Clark) | importai.substack.com | Mar 2026 | Most recent issue #447 dated Mar 2, 2026 — no qualifying issue this run |
 
 ---
 
 ## Subscriber List
-
-*All subscribers — active and inactive. Never delete.*
 
 | Name | Email | Status | Added | Notes |
 |---|---|---|---|---|
@@ -60,7 +58,8 @@
 
 | Run ID | Date | Subscribers Sent To | Preferred Sources Searched | Notes |
 |---|---|---|---|---|
-| AI-20260317 | Mar 17, 2026 | Jason | The New Stack, VentureBeat, MIT Technology Review | Ars Technica, Wired, Import AI searched but no qualifying articles today; CNBC used as secondary source |
+| AI-20260317 | Mar 17, 2026 | Jason | The New Stack, VentureBeat, MIT Technology Review | Ars Technica, Wired, Import AI searched but no qualifying articles; CNBC used as secondary |
+| AI-20260320 | Mar 20, 2026 | Jason | All 6 searched | VentureBeat: Xiaomi MiMo-V2-Pro (featured). Ars Technica/Wired blocked by crawler. Import AI most recent issue Mar 2. MIT News (news.mit.edu) used for TU metric article — distinct from MIT Technology Review but affiliated. 5 Featured, 4 Listed, 1 Skipped. |
 
 ---
 
@@ -80,16 +79,18 @@
 
 #### Source Relevance Weights
 
-*Per-subscriber source relevance adjustments. Separate from credibility scores.*
-*Weight range: -1.5 to +1.5. Decay rules: see How to Read This Tracker above.*
-
 | Source | Current Weight | Times Confirmed (+) | Times Confirmed (-) | Times Appeared (no confirm) | Last Confirmed | Status |
 |---|---|---|---|---|---|---|
-| VentureBeat | 0 | 0 | 0 | 1 | — | Neutral |
+| VentureBeat | 0 | 0 | 0 | 2 | — | Neutral |
 | MIT Technology Review | 0 | 0 | 0 | 2 | — | Neutral |
 | The New Stack | 0 | 0 | 0 | 2 | — | Neutral |
-
-*Status key: Active (weight ≠ 0, confirmed ≤14 days) · Fading (weight ≠ 0, confirmed >14 days) · Neutral (weight = 0)*
+| Bloomberg | 0 | 0 | 0 | 1 | — | Neutral |
+| CNBC | 0 | 0 | 0 | 2 | — | Neutral |
+| Dark Reading | 0 | 0 | 0 | 1 | — | Neutral |
+| The Decoder | 0 | 0 | 0 | 1 | — | Neutral |
+| Transparency Coalition | 0 | 0 | 0 | 1 | — | Neutral |
+| Decrypt | 0 | 0 | 0 | 1 | — | Neutral |
+| Anthropic | 0 | 0 | 0 | 1 | — | Neutral |
 
 #### Topic Relevance Weights
 
@@ -104,22 +105,34 @@
 
 | Sub-Tag | Current Weight | Times Confirmed (+) | Times Confirmed (-) | Times Appeared (no confirm) | Last Confirmed | Status |
 |---|---|---|---|---|---|---|
-| agentic AI | 0 | 0 | 0 | 2 | — | Neutral |
-| AI infrastructure | 0 | 0 | 0 | 3 | — | Neutral |
-| enterprise AI | 0 | 0 | 0 | 1 | — | Neutral |
-| Nvidia GTC | 0 | 0 | 0 | 1 | — | Neutral |
-| AI chips | 0 | 0 | 0 | 1 | — | Neutral |
-| AI safety | 0 | 0 | 0 | 2 | — | Neutral |
-| military AI | 0 | 0 | 0 | 2 | — | Neutral |
-| AI governance | 0 | 0 | 0 | 2 | — | Neutral |
-| OpenAI | 0 | 0 | 0 | 2 | — | Neutral |
-| autonomous weapons | 0 | 0 | 0 | 1 | — | Neutral |
-| MCP | 0 | 0 | 0 | 1 | — | Neutral |
+| agentic AI | 0 | 0 | 0 | 5 | — | Neutral |
+| AI infrastructure | 0 | 0 | 0 | 4 | — | Neutral |
+| enterprise AI | 0 | 0 | 0 | 4 | — | Neutral |
+| AI chips | 0 | 0 | 0 | 2 | — | Neutral |
+| AI safety | 0 | 0 | 0 | 6 | — | Neutral |
+| AI governance | 0 | 0 | 0 | 4 | — | Neutral |
+| OpenAI | 0 | 0 | 0 | 3 | — | Neutral |
+| Anthropic | 0 | 0 | 0 | 3 | — | Neutral |
+| MCP | 0 | 0 | 0 | 2 | — | Neutral |
 | AI engineering | 0 | 0 | 0 | 2 | — | Neutral |
-| developer tools | 0 | 0 | 0 | 1 | — | Neutral |
+| developer tools | 0 | 0 | 0 | 3 | — | Neutral |
+| inference | 0 | 0 | 0 | 4 | — | Neutral |
 | cloud AI | 0 | 0 | 0 | 1 | — | Neutral |
-| Anthropic | 0 | 0 | 0 | 1 | — | Neutral |
-| inference | 0 | 0 | 0 | 1 | — | Neutral |
+| military AI | 0 | 0 | 0 | 2 | — | Neutral |
+| autonomous weapons | 0 | 0 | 0 | 1 | — | Neutral |
+| Nvidia GTC | 0 | 0 | 0 | 1 | — | Neutral |
+| model release | 0 | 0 | 0 | 2 | — | Neutral |
+| AI research | 0 | 0 | 0 | 1 | — | Neutral |
+| hallucinations | 0 | 0 | 0 | 1 | — | Neutral |
+| image generation | 0 | 0 | 0 | 1 | — | Neutral |
+| AI regulation | 0 | 0 | 0 | 1 | — | Neutral |
+| chatbot safety | 0 | 0 | 0 | 1 | — | Neutral |
+| deepfakes | 0 | 0 | 0 | 1 | — | Neutral |
+| AI security | 0 | 0 | 0 | 2 | — | Neutral |
+| prompt injection | 0 | 0 | 0 | 1 | — | Neutral |
+| Chinese AI | 0 | 0 | 0 | 1 | — | Neutral |
+| open-source AI | 0 | 0 | 0 | 1 | — | Neutral |
+| AI tools | 0 | 0 | 0 | 1 | — | Neutral |
 
 #### Feedback History
 
@@ -129,24 +142,92 @@
 
 ---
 
-*[Additional subscriber profiles added here as subscribers join]*
+## Active Sources
+
+### Bloomberg
+- **Overall credibility avg:** 9.0 | **Trend:** 🆕 New
+- **Total appearances:** 1
+- **Misrepresentation flags (all time):** 0
+- **Preferred source:** No
+
+| Date | Credibility Score | Topic Area(s) | Sub-Tags Used | Notes |
+|---|---|---|---|---|
+| Mar 20, 2026 | 9.0 | 🛠️ AI Tools & Products | OpenAI, developer tools, agentic AI, enterprise AI | OpenAI Superapp — Bloomberg exclusive + confirmed by multiple outlets; Fidji Simo memo cited |
 
 ---
 
-## Active Sources
+### CNBC
+- **Overall credibility avg:** 8.0 | **Trend:** 🆕 New
+- **Total appearances:** 2
+- **Misrepresentation flags (all time):** 0
+- **Preferred source:** No
 
-*Listed alphabetically. Never remove a source.*
+| Date | Credibility Score | Topic Area(s) | Sub-Tags Used | Notes |
+|---|---|---|---|---|
+| Mar 17, 2026 | 8.0 | 🏢 AI in Business & Industry | AI infrastructure, Nvidia GTC | Secondary source in run AI-20260317 |
+| Mar 18, 2026 | 8.0 | 🏢 AI in Business & Industry | AI infrastructure, AI chips, enterprise AI | Micron Q2 earnings — verified against SEC filing and earnings call transcript |
+
+---
+
+### Dark Reading
+- **Overall credibility avg:** 7.5 | **Trend:** 🆕 New
+- **Total appearances:** 1
+- **Misrepresentation flags (all time):** 0
+- **Preferred source:** No
+
+| Date | Credibility Score | Topic Area(s) | Sub-Tags Used | Notes |
+|---|---|---|---|---|
+| Mar 18, 2026 | 7.5 | ⚖️ AI Safety & Ethics | AI security, prompt injection, Anthropic, MCP, agentic AI | "Claudy Day" — Oasis Security original research; Anthropic confirmed patch; strong sourcing |
+
+---
+
+### Decrypt
+- **Overall credibility avg:** 7.0 | **Trend:** 🆕 New
+- **Total appearances:** 1
+- **Misrepresentation flags (all time):** 0
+- **Preferred source:** No
+
+| Date | Credibility Score | Topic Area(s) | Sub-Tags Used | Notes |
+|---|---|---|---|---|
+| Mar 19, 2026 | 7.0 | 🛠️ AI Tools & Products | image generation, model release, AI tools, developer tools | MAI-Image-2 — hands-on review, Microsoft official source verified, Arena.ai confirmed |
+
+---
+
+### MIT News (news.mit.edu)
+- **Overall credibility avg:** 9.0 | **Trend:** 🆕 New
+- **Total appearances:** 1
+- **Misrepresentation flags (all time):** 0
+- **Preferred source:** No (affiliated with MIT Technology Review)
+
+| Date | Credibility Score | Topic Area(s) | Sub-Tags Used | Notes |
+|---|---|---|---|---|
+| Mar 19, 2026 | 9.0 | 🔬 AI Research & Breakthroughs | AI research, hallucinations, AI safety, inference | MIT TU metric — MIT reporting own research; Hamidieh et al. paper is the primary source; very high accuracy |
+
+---
 
 ### MIT Technology Review
-- **Overall credibility avg:** 8.3 | **Trend:** 🆕 New
-- **Total appearances:** 2
+- **Overall credibility avg:** 7.3 | **Trend:** 🆕 New
+- **Total appearances:** 3
 - **Misrepresentation flags (all time):** 0
 - **Preferred source:** Yes
 
 | Date | Credibility Score | Topic Area(s) | Sub-Tags Used | Notes |
 |---|---|---|---|---|
-| Mar 17, 2026 | 8.4 | ⚖️ AI Safety & Ethics | AI safety, military AI, AI governance, OpenAI, autonomous weapons | "Where OpenAI's technology could show up in Iran" — strong primary sourcing, named experts |
+| Mar 17, 2026 | 8.4 | ⚖️ AI Safety & Ethics | AI safety, military AI, AI governance, OpenAI, autonomous weapons | "Where OpenAI's technology could show up in Iran" — strong primary sourcing |
 | Mar 17, 2026 | 6.2 | ⚖️ AI Safety & Ethics | military AI, AI governance, Anthropic | "The Download" digest — aggregator format, lower sourcing depth |
+| Mar 19, 2026 | 7.2 | ⚖️ AI Safety & Ethics | AI safety, AI governance, chatbot safety | "The Download" Mar 19 — aggregator format; AI safety items lightly sourced; SKIPPED (score 4.7) |
+
+---
+
+### The Decoder
+- **Overall credibility avg:** 7.5 | **Trend:** 🆕 New
+- **Total appearances:** 1
+- **Misrepresentation flags (all time):** 0
+- **Preferred source:** No
+
+| Date | Credibility Score | Topic Area(s) | Sub-Tags Used | Notes |
+|---|---|---|---|---|
+| Mar 19, 2026 | 7.5 | ⚖️ AI Safety & Ethics | AI safety, agentic AI, AI security, enterprise AI | Meta rogue AI agent — primary source (The Information) paywalled; consistent with TechCrunch coverage |
 
 ---
 
@@ -163,15 +244,40 @@
 
 ---
 
-### VentureBeat
-- **Overall credibility avg:** 9.2 | **Trend:** 🆕 New
+### Transparency Coalition
+- **Overall credibility avg:** 7.0 | **Trend:** 🆕 New
 - **Total appearances:** 1
+- **Misrepresentation flags (all time):** 0
+- **Preferred source:** No
+
+| Date | Credibility Score | Topic Area(s) | Sub-Tags Used | Notes |
+|---|---|---|---|---|
+| Mar 20, 2026 | 7.0 | ⚖️ AI Safety & Ethics | AI governance, AI regulation, AI safety, chatbot safety, deepfakes | Weekly legislative roundup — LegiScan primary source; factually accurate but advocacy org |
+
+---
+
+### VentureBeat
+- **Overall credibility avg:** 8.85 | **Trend:** 🆕 New
+- **Total appearances:** 2
 - **Misrepresentation flags (all time):** 0
 - **Preferred source:** Yes
 
 | Date | Credibility Score | Topic Area(s) | Sub-Tags Used | Notes |
 |---|---|---|---|---|
-| Mar 17, 2026 | 9.2 | 🏢 AI in Business & Industry | agentic AI, AI infrastructure, enterprise AI, Nvidia GTC, AI chips | Nvidia GTC Agent Toolkit — primary source verified against Nvidia press release, excellent analysis |
+| Mar 17, 2026 | 9.2 | 🏢 AI in Business & Industry | agentic AI, AI infrastructure, enterprise AI, Nvidia GTC, AI chips | Nvidia GTC Agent Toolkit — primary source verified against Nvidia press release |
+| Mar 20, 2026 | 8.5 | 🔬 AI Research & Breakthroughs | model release, agentic AI, Chinese AI, open-source AI, inference | Xiaomi MiMo-V2-Pro — verified against Xiaomi official site and Artificial Analysis rankings |
+
+---
+
+### Anthropic (company)
+- **Overall credibility avg:** 7.5 | **Trend:** 🆕 New
+- **Total appearances:** 1
+- **Misrepresentation flags (all time):** 0
+- **Preferred source:** No
+
+| Date | Credibility Score | Topic Area(s) | Sub-Tags Used | Notes |
+|---|---|---|---|---|
+| Mar 18, 2026 | 7.5 | 🏢 AI in Business & Industry | Anthropic, enterprise AI, AI safety | 80,508 user survey — company self-reporting; directional rather than independent research |
 
 ---
 
@@ -183,17 +289,17 @@
 
 ## Tracker Stats
 
-- **Total sources tracked:** 3
+- **Total sources tracked:** 10
 - **Preferred sources:** 6
 - **Sources with credibility trends calculated:** 0 (requires ≥3 appearances)
 - **Sources permanently excluded:** 0
 - **Active subscribers:** 1
-- **Total newsletter runs completed:** 1
-- **Unique sub-tags tracked:** 16
+- **Total newsletter runs completed:** 2
+- **Unique sub-tags tracked:** 28
 - **Sub-tags with active weight (≠0):** 0
 - **Sources with active relevance weight (≠0, any subscriber):** 0
 - **Total feedback confirmations received:** 0
-- **Last updated:** Mar 17, 2026
+- **Last updated:** Mar 20, 2026
 
 ---
 
@@ -207,4 +313,4 @@
 
 ---
 
-*Version 5.0 — Created March 2026 | Last updated: Mar 17, 2026*
+*Version 5.0 — Created March 2026 | Last updated: Mar 20, 2026*
