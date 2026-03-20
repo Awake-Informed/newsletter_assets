@@ -50,6 +50,7 @@
 | Name | Email | Status | Added | Notes |
 |---|---|---|---|---|
 | Jason | jmc04g@gmail.com | ✅ Active | Mar 2026 | Owner |
+| Jason Campbell | jcampbell2@lululemon.com | ✅ Active | Mar 2026 | |
 
 ---
 
