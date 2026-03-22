@@ -37,11 +37,11 @@
 | Source | URL | Added | Notes |
 |---|---|---|---|
 | The New Stack | thenewstack.io | Mar 2026 | AI engineering, DevOps, cloud |
-| VentureBeat | venturebeat.com | Mar 2026 | AI business & enterprise, strong original reporting |
-| MIT Technology Review | technologyreview.com | Mar 2026 | AI research, academic rigour — no qualifying articles this run |
+| VentureBeat | venturebeat.com | Mar 2026 | AI business & enterprise, strong original reporting — prior-run articles only; no new VentureBeat articles within 24h window for this test run |
+| MIT Technology Review | technologyreview.com | Mar 2026 | AI research, academic rigour — 1 article in AI-20260322-test (paywalled; partial verification only) |
 | Ars Technica | arstechnica.com | Mar 2026 | Domain blocked by crawler |
 | Wired | wired.com | Mar 2026 | Domain blocked by crawler |
-| Import AI (Jack Clark) | importai.substack.com | Mar 2026 | Most recent issue #449 dated Mar 16, 2026 — no new issue this run |
+| Import AI (Jack Clark) | importai.substack.com | Mar 2026 | Most recent issue #449 dated Mar 16, 2026 — outside 24h window for this test run |
 
 ---
 
@@ -62,6 +62,7 @@
 | AI-20260320 | Mar 20, 2026 | Jason | All 6 searched | 6 Featured, 6 Listed. Top stories: Nvidia GTC (CNBC/NVIDIA Newsroom), Cursor Composer 2 (VentureBeat), OpenAI super app (Bloomberg/Digitimes), WA HB 2225 chatbot safety (Townhall), AI Legislative Update (Transparency Coalition). New sources: TechCrunch, Townhall, NVIDIA Newsroom, Import AI, AI2Work. |
 | AI-20260321 | Mar 21, 2026 | Jason, Jason Campbell | All 6 searched | 7 Featured, 1 Honorable Mention. Top stories: Claude Code Channels (VentureBeat), METR Modelling Assumptions, Trump National AI Framework (TechCrunch), AI Chip Smuggling/SDNY (Al Jazeera), Microsoft Secure Agentic AI, Three Ways AI Physical World (VentureBeat), AI Startups Venture Returns (TechCrunch). Saturday run — reduced article volume. |
 | AI-20260322 | Mar 22, 2026 | Jason, Jason Campbell | All 6 searched | 2 Featured, 7 Honorable Mentions. Top stories: Cursor/Kimi model controversy (TechCrunch), Anthropic/Pentagon court filings (TechCrunch). Sunday run — reduced article volume. New source: Fortune. The New Stack transitions to → Stable (4 appearances). VentureBeat excluded from this run — prior-run articles only. |
+| AI-20260322-test | Mar 22, 2026 | Jason, Jason Campbell | All 6 searched | TEST RUN. 1 Featured, 2 Honorable Mentions. Featured: Musk Terafab (Fortune, 8.75). HM: OpenAI headcount (Fortune, 7.95); OpenAI automated researcher (MIT TR, 6.25 — recency penalty). Sunday — limited fresh content; 3rd article from Mar 20 included with full recency penalty. MIT Tech Review paywalled — partial verification only. |
 
 ---
 
@@ -82,7 +83,7 @@
 | Source | Current Weight | Times Confirmed (+) | Times Confirmed (-) | Times Appeared (no confirm) | Last Confirmed | Status |
 |---|---|---|---|---|---|---|
 | VentureBeat | 0 | 0 | 0 | 7 | — | Neutral |
-| MIT Technology Review | 0 | 0 | 0 | 2 | — | Neutral |
+| MIT Technology Review | 0 | 0 | 0 | 3 | — | Neutral |
 | The New Stack | 0 | 0 | 0 | 4 | — | Neutral |
 | Bloomberg | 0 | 0 | 0 | 2 | — | Neutral |
 | CNBC | 0 | 0 | 0 | 5 | — | Neutral |
@@ -99,7 +100,7 @@
 | Al Jazeera | 0 | 0 | 0 | 1 | — | Neutral |
 | METR | 0 | 0 | 0 | 1 | — | Neutral |
 | Microsoft Security Blog | 0 | 0 | 0 | 1 | — | Neutral |
-| Fortune | 0 | 0 | 0 | 1 | — | Neutral |
+| Fortune | 0 | 0 | 0 | 2 | — | Neutral |
 
 #### Topic Relevance Weights
 
@@ -114,13 +115,13 @@
 
 | Sub-Tag | Current Weight | Times Confirmed (+) | Times Confirmed (-) | Times Appeared (no confirm) | Last Confirmed | Status |
 |---|---|---|---|---|---|---|
-| agentic AI | 0 | 0 | 0 | 13 | — | Neutral |
-| AI infrastructure | 0 | 0 | 0 | 11 | — | Neutral |
-| enterprise AI | 0 | 0 | 0 | 13 | — | Neutral |
-| AI chips | 0 | 0 | 0 | 4 | — | Neutral |
-| AI safety | 0 | 0 | 0 | 12 | — | Neutral |
+| agentic AI | 0 | 0 | 0 | 14 | — | Neutral |
+| AI infrastructure | 0 | 0 | 0 | 12 | — | Neutral |
+| enterprise AI | 0 | 0 | 0 | 14 | — | Neutral |
+| AI chips | 0 | 0 | 0 | 5 | — | Neutral |
+| AI safety | 0 | 0 | 0 | 13 | — | Neutral |
 | AI governance | 0 | 0 | 0 | 10 | — | Neutral |
-| OpenAI | 0 | 0 | 0 | 7 | — | Neutral |
+| OpenAI | 0 | 0 | 0 | 8 | — | Neutral |
 | Anthropic | 0 | 0 | 0 | 8 | — | Neutral |
 | MCP | 0 | 0 | 0 | 4 | — | Neutral |
 | AI engineering | 0 | 0 | 0 | 6 | — | Neutral |
@@ -131,7 +132,7 @@
 | autonomous weapons | 0 | 0 | 0 | 1 | — | Neutral |
 | Nvidia GTC | 0 | 0 | 0 | 3 | — | Neutral |
 | model release | 0 | 0 | 0 | 8 | — | Neutral |
-| AI research | 0 | 0 | 0 | 6 | — | Neutral |
+| AI research | 0 | 0 | 0 | 7 | — | Neutral |
 | hallucinations | 0 | 0 | 0 | 1 | — | Neutral |
 | image generation | 0 | 0 | 0 | 1 | — | Neutral |
 | AI regulation | 0 | 0 | 0 | 7 | — | Neutral |
@@ -145,7 +146,7 @@
 | export controls | 0 | 0 | 0 | 1 | — | Neutral |
 | federal preemption | 0 | 0 | 0 | 1 | — | Neutral |
 | world models | 0 | 0 | 0 | 1 | — | Neutral |
-| venture capital | 0 | 0 | 0 | 3 | — | Neutral |
+| venture capital | 0 | 0 | 0 | 4 | — | Neutral |
 
 #### Feedback History
 
@@ -162,7 +163,7 @@
 | Source | Current Weight | Times Confirmed (+) | Times Confirmed (-) | Times Appeared (no confirm) | Last Confirmed | Status |
 |---|---|---|---|---|---|---|
 | VentureBeat | 0 | 0 | 0 | 7 | — | Neutral |
-| MIT Technology Review | 0 | 0 | 0 | 2 | — | Neutral |
+| MIT Technology Review | 0 | 0 | 0 | 3 | — | Neutral |
 | The New Stack | 0 | 0 | 0 | 4 | — | Neutral |
 | Bloomberg | 0 | 0 | 0 | 2 | — | Neutral |
 | CNBC | 0 | 0 | 0 | 5 | — | Neutral |
@@ -179,7 +180,7 @@
 | Al Jazeera | 0 | 0 | 0 | 1 | — | Neutral |
 | METR | 0 | 0 | 0 | 1 | — | Neutral |
 | Microsoft Security Blog | 0 | 0 | 0 | 1 | — | Neutral |
-| Fortune | 0 | 0 | 0 | 1 | — | Neutral |
+| Fortune | 0 | 0 | 0 | 2 | — | Neutral |
 
 #### Topic Relevance Weights
 
@@ -194,13 +195,13 @@
 
 | Sub-Tag | Current Weight | Times Confirmed (+) | Times Confirmed (-) | Times Appeared (no confirm) | Last Confirmed | Status |
 |---|---|---|---|---|---|---|
-| agentic AI | 0 | 0 | 0 | 13 | — | Neutral |
-| AI infrastructure | 0 | 0 | 0 | 11 | — | Neutral |
-| enterprise AI | 0 | 0 | 0 | 13 | — | Neutral |
-| AI chips | 0 | 0 | 0 | 4 | — | Neutral |
-| AI safety | 0 | 0 | 0 | 12 | — | Neutral |
+| agentic AI | 0 | 0 | 0 | 14 | — | Neutral |
+| AI infrastructure | 0 | 0 | 0 | 12 | — | Neutral |
+| enterprise AI | 0 | 0 | 0 | 14 | — | Neutral |
+| AI chips | 0 | 0 | 0 | 5 | — | Neutral |
+| AI safety | 0 | 0 | 0 | 13 | — | Neutral |
 | AI governance | 0 | 0 | 0 | 10 | — | Neutral |
-| OpenAI | 0 | 0 | 0 | 7 | — | Neutral |
+| OpenAI | 0 | 0 | 0 | 8 | — | Neutral |
 | Anthropic | 0 | 0 | 0 | 8 | — | Neutral |
 | MCP | 0 | 0 | 0 | 4 | — | Neutral |
 | AI engineering | 0 | 0 | 0 | 6 | — | Neutral |
@@ -211,7 +212,7 @@
 | autonomous weapons | 0 | 0 | 0 | 1 | — | Neutral |
 | Nvidia GTC | 0 | 0 | 0 | 3 | — | Neutral |
 | model release | 0 | 0 | 0 | 8 | — | Neutral |
-| AI research | 0 | 0 | 0 | 6 | — | Neutral |
+| AI research | 0 | 0 | 0 | 7 | — | Neutral |
 | hallucinations | 0 | 0 | 0 | 1 | — | Neutral |
 | image generation | 0 | 0 | 0 | 1 | — | Neutral |
 | AI regulation | 0 | 0 | 0 | 7 | — | Neutral |
@@ -225,7 +226,7 @@
 | export controls | 0 | 0 | 0 | 1 | — | Neutral |
 | federal preemption | 0 | 0 | 0 | 1 | — | Neutral |
 | world models | 0 | 0 | 0 | 1 | — | Neutral |
-| venture capital | 0 | 0 | 0 | 3 | — | Neutral |
+| venture capital | 0 | 0 | 0 | 4 | — | Neutral |
 
 #### Feedback History
 
@@ -303,14 +304,15 @@
 ---
 
 ### Fortune
-- **Overall credibility avg:** 8.0 | **Trend:** 🆕 New
-- **Total appearances:** 1
+- **Overall credibility avg:** 8.25 | **Trend:** 🆕 New
+- **Total appearances:** 2
 - **Misrepresentation flags (all time):** 0
 - **Preferred source:** No
 
 | Date | Credibility Score | Topic Area(s) | Sub-Tags Used | Notes |
 |---|---|---|---|---|
-| Mar 21, 2026 | 8.0 | 🏢 AI in Business & Industry | OpenAI, enterprise AI, AI infrastructure | OpenAI headcount doubling — Financial Times as primary source; Bloomberg confirmed Astral acquisition; clean secondary chain. Accurate. |
+| Mar 21, 2026 | 8.0 | 🏢 AI in Business & Industry | OpenAI, enterprise AI, AI infrastructure, venture capital | OpenAI headcount doubling — Financial Times as primary source; Bloomberg confirmed Astral acquisition; clean secondary chain. Accurate. |
+| Mar 22, 2026 | 8.5 | 🏢 AI in Business & Industry / 🛠️ AI Tools & Products | AI chips, AI infrastructure, enterprise AI, agentic AI | Musk Terafab — live announcement (Seaholm Power Plant) + SpaceX FCC filing DA 26-113 (accepted Feb 4) + SpaceX IPO documentation verified. Corroborated by Bloomberg, Engadget, TechCrunch, Axios. Minor framing issue on FCC status (low impact). Accurate. Clean. |
 
 ---
 
@@ -351,8 +353,8 @@
 ---
 
 ### MIT Technology Review
-- **Overall credibility avg:** 7.27 | **Trend:** → Stable
-- **Total appearances:** 3
+- **Overall credibility avg:** 7.5 | **Trend:** → Stable
+- **Total appearances:** 4
 - **Misrepresentation flags (all time):** 0
 - **Preferred source:** Yes
 
@@ -361,6 +363,7 @@
 | Mar 17, 2026 | 8.4 | ⚖️ AI Safety & Ethics | AI safety, military AI, AI governance, OpenAI, autonomous weapons | "Where OpenAI's technology could show up in Iran" — strong primary sourcing |
 | Mar 17, 2026 | 6.2 | ⚖️ AI Safety & Ethics | military AI, AI governance, Anthropic | "The Download" digest — aggregator format, lower sourcing depth |
 | Mar 19, 2026 | 7.2 | ⚖️ AI Safety & Ethics | AI safety, AI governance, chatbot safety | "The Download" Mar 19 — aggregator format; SKIPPED (score 4.7) |
+| Mar 20, 2026 | 8.0 | 🔬 AI Research & Breakthroughs | OpenAI, AI research, agentic AI, AI safety | OpenAI automated researcher — exclusive interview with Jakub Pachocki (Chief Scientist); GDPVal benchmark cited (83.0%); article paywalled, full verification partially limited. Claims confirmed via secondary coverage. High editorial standards. |
 
 ---
 
@@ -387,7 +390,7 @@
 | Mar 17, 2026 | 6.5 | 🛠️ AI Tools & Products | MCP, agentic AI, AI engineering, developer tools | MCP production pain points — practical, moderate primary sourcing |
 | Mar 17, 2026 | 6.8 | 🛠️ AI Tools & Products | AI infrastructure, cloud AI, AI engineering | AI cloud taxonomy 2026 — useful framework, mostly secondary sourcing |
 | Mar 18, 2026 | 7.8 | 🛠️ AI Tools & Products | OpenAI, model release, inference, developer tools, AI engineering | GPT-5.4 mini/nano — subagent era framing; OpenAI official announcement verified |
-| Mar 21, 2026 | 6.5 | 🛠️ AI Tools & Products / AI infrastructure | AI infrastructure, AI engineering, agentic AI, cloud AI, developer tools | "Why the 'glorified host' for AI is exactly the Kubernetes we need" — Hyperframe Research data (82% Kubernetes adoption among container users, 2/3 GenAI inference on Kubernetes) cited; CNCF-adjacent analysis; accurate framing. Clean. |
+| Mar 21, 2026 | 6.5 | 🛠️ AI Tools & Products / AI infrastructure | AI infrastructure, AI engineering, agentic AI, cloud AI, developer tools | "Why the 'glorified host' for AI is exactly the Kubernetes we need" — Hyperframe Research data cited; CNCF-adjacent analysis; accurate framing. Clean. |
 
 ---
 
@@ -415,7 +418,7 @@
 | Mar 17, 2026 | 7.9 | 🏢 AI in Business & Industry | enterprise AI, model release, open-source AI, AI infrastructure, developer tools | Mistral Forge — mistral.ai/news/forge verified; accurate. Clean. |
 | Mar 20, 2026 | 9.0 | ⚖️ AI Safety & Ethics | AI governance, AI regulation, AI safety, federal preemption | Trump National AI Framework — White House document verified. Accurate. Clean. |
 | Mar 20, 2026 | 8.1 | 🏢 AI in Business & Industry | enterprise AI, AI infrastructure, venture capital | AI Startups Venture Returns — Carta data verified. Accurate. Clean. |
-| Mar 20, 2026 | 8.5 | 🏢 AI in Business & Industry | AI infrastructure, enterprise AI, venture capital | AI energy investment — Sightline Climate report as primary; specific data points (190GW tracked, 5GW under construction, 36% delayed) cited accurately. Clean. |
+| Mar 20, 2026 | 8.5 | 🏢 AI in Business & Industry | AI infrastructure, enterprise AI, venture capital | AI energy investment — Sightline Climate report as primary; specific data points cited accurately. Clean. |
 | Mar 20, 2026 | 8.0 | 🛠️ AI Tools & Products | agentic AI, developer tools, AI tools | WordPress AI agents — WordPress.com official blog as primary source; accurate. Clean. |
 | Mar 20, 2026 | 7.5 | 🛠️ AI Tools & Products | AI tools, enterprise AI, developer tools | Microsoft Copilot rollback — Microsoft Windows announcement verified; Pew Research cited as secondary. Clean. |
 | Mar 21, 2026 | 9.0 | ⚖️ AI Safety & Ethics | Anthropic, AI governance, AI regulation, AI safety, military AI | Anthropic/Pentagon court filing — sworn declarations (Sarah Heck) filed in U.S. District Court as primary source; corroborated by Federal News Network. Accurate. Very clean. |
@@ -514,15 +517,15 @@
 
 - **Total sources tracked:** 17
 - **Preferred sources:** 6
-- **Sources with credibility trends calculated:** 4 (VentureBeat → Stable; MIT Technology Review → Stable; TechCrunch → Stable; The New Stack → Stable — all have ≥3 appearances)
+- **Sources with credibility trends calculated:** 4 (VentureBeat → Stable; MIT Technology Review → Stable; TechCrunch → Stable; The New Stack → Stable)
 - **Sources permanently excluded:** 0
 - **Active subscribers:** 2
-- **Total newsletter runs completed:** 4
+- **Total newsletter runs completed:** 5 (includes AI-20260322-test)
 - **Unique sub-tags tracked:** 32
 - **Sub-tags with active weight (≠0):** 0
 - **Sources with active relevance weight (≠0, any subscriber):** 0
 - **Total feedback confirmations received:** 0
-- **Last updated:** Mar 22, 2026 (AI-20260322)
+- **Last updated:** Mar 22, 2026 (AI-20260322-test)
 
 ---
 
