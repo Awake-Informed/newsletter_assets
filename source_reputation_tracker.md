@@ -1,8 +1,4 @@
-# Source Reputation Tracker v5
-*Awake & Informed — Daily AI Newsletter*
-*Last updated: 22 March 2026 (AI-20260322-test)*
-
----
+# Source Reputation Tracker v5 — Awake & Informed
 
 ## System Overview
 
@@ -31,6 +27,7 @@
 | CNBC | 8.22 | 5 | → Stable | Consistent performance |
 | Dark Reading | 7.50 | 1 | 🆕 New | Single appearance |
 | Decrypt | 7.00 | 1 | 🆕 New | Single appearance |
+| Engadget | 8.50 | 1 | 🆕 New | First appearance; strong multi-outlet corroboration on Terafab story |
 | Fortune | 8.25 | 2 | 🆕 New | Two appearances |
 | Import AI | 7.90 | 1 | 🆕 New | Single appearance |
 | METR | 9.00 | 1 | 🆕 New | Single appearance |
@@ -38,12 +35,49 @@
 | MIT Technology Review | 7.50 | 4 | → Stable | Preferred source; consistent |
 | MIT News | 9.00 | 1 | 🆕 New | Single appearance |
 | NVIDIA Newsroom | 9.10 | 1 | 🆕 New | Single appearance |
-| TechCrunch | 8.17 | 10 | → Stable | Updated: +1 run (8.5 credibility, Cursor/Kimi article). Avg: (8.13×9 + 8.5) / 10 = 8.17 |
-| The Decoder | 7.67 | 3 | → Stable | Updated: +2 runs today (8.0 + 7.5). Avg: (7.5 + 8.0 + 7.5) / 3 = 7.67. Now ≥3 appearances; trend: Stable |
+| TechCrunch | 7.93 | 11 | → Stable | Updated: +1 run (5.5 credibility, podcast teaser/GTC recap — weak sourcing). Avg: (8.17×10 + 5.5) / 11 = 7.93. Stable maintained; low score today reflects format of article, not source unreliability. |
+| The Decoder | 7.67 | 3 | → Stable | Stable |
 | The New Stack | 6.90 | 4 | → Stable | Preferred source |
 | Townhall | 8.80 | 1 | 🆕 New | Single appearance |
 | Transparency Coalition | 7.60 | 2 | 🆕 New | Two appearances |
-| VentureBeat | 8.37 | 9 | → Stable | Preferred source; consistent |
+| VentureBeat | 8.23 | 10 | → Stable | Updated: +1 run (7.0 credibility, practitioner analysis piece with limited primary sources). Avg: (8.37×9 + 7.0) / 10 = 8.23. Preferred source; stable. |
+
+---
+
+## Publication History — AI-20260323-test
+
+### Article 1
+**Source:** Engadget (corroborated: Bloomberg, Fortune, TechCrunch, Tom's Hardware)
+**Date:** 22 March 2026
+**Run ID:** AI-20260323-test
+**Title:** Elon Musk announces Terafab project he claims will be the 'largest chip manufacturing facility ever'
+**Topic area:** 🏢 AI in Business & Industry · 🛠️ AI Tools & Products
+**Sub-tags:** AI chips, AI infrastructure
+**Credibility score this run:** 8.5
+**Sourcing note:** 3 primary sources cited (Musk livestream on X, Terafab.ai official site, SpaceX FCC filing). All 3 verified. Key financial claims (cost, CFO statement) independently confirmed by Bloomberg. Multi-outlet corroboration across Bloomberg, Fortune, TechCrunch, Tom's Hardware, KUT Radio. No misrepresentation.
+**Misrepresentation flags:** None
+
+### Article 2
+**Source:** VentureBeat
+**Date:** 22 March 2026
+**Run ID:** AI-20260323-test
+**Title:** From assistance to autonomy: How agentic AI is redefining enterprises
+**Topic area:** 🏢 AI in Business & Industry · ⚖️ AI Safety & Ethics
+**Sub-tags:** agentic AI, enterprise AI, AI governance
+**Credibility score this run:** 7.0
+**Sourcing note:** Practitioner analysis piece based on authors' 18 months of production AI experience. Limited external primary sources. Claims are plausible and consistent with known enterprise AI deployment patterns but cannot be independently verified. No falsifiable factual claims made. Article adds practitioner insight; low primary source score reflects format, not inaccuracy.
+**Misrepresentation flags:** None
+
+### Article 3 (SKIPPED — scored 4.9, below 5.0 threshold)
+**Source:** TechCrunch
+**Date:** 22 March 2026
+**Run ID:** AI-20260323-test
+**Title:** Do you want to build a robot snowman?
+**Topic area:** 🛠️ AI Tools & Products
+**Sub-tags:** AI chips, AI infrastructure, developer tools
+**Credibility score this run:** 5.5
+**Sourcing note:** Podcast teaser for TechCrunch Equity episode on Nvidia GTC 2026 (keynote March 16). References own TechCrunch coverage and publicly available Nvidia keynote. Self-referential chain (TechCrunch → TechCrunch). Low sourcing depth appropriate to podcast promo format; underlying Nvidia GTC content is credible. Scored below HM threshold in newsletter due to low relevance depth and weak source chain.
+**Misrepresentation flags:** None
 
 ---
 
@@ -68,7 +102,7 @@
 **Topic area:** 🔬 AI Research & Breakthroughs · 🛠️ AI Tools & Products
 **Sub-tags:** model release, agentic AI, Chinese AI, AI research, AI tools
 **Credibility score this run:** 8.0
-**Sourcing note:** Official Xiaomi release plus independently verifiable public benchmarks. Hunter Alpha/OpenRouter claim is verifiable via OpenRouter public data. Team quote confirmed in official announcement.
+**Sourcing note:** Official Xiaomi release plus independently verifiable public benchmarks. Hunter Alpha/OpenRouter claim verifiable via OpenRouter public data. Team quote confirmed in official announcement.
 **Misrepresentation flags:** None
 
 ### Article 3
@@ -131,7 +165,7 @@
 
 **Feedback log:** No feedback received.
 
-**Processed run IDs:** AI-20260317, AI-20260320, AI-20260321, AI-20260322, AI-20260322-test
+**Processed run IDs:** AI-20260317, AI-20260320, AI-20260321, AI-20260322, AI-20260322-test, AI-20260323-test
 
 ---
 
@@ -145,7 +179,7 @@
 
 **Feedback log:** No feedback received.
 
-**Processed run IDs:** AI-20260321, AI-20260322, AI-20260322-test
+**Processed run IDs:** AI-20260321, AI-20260322, AI-20260322-test, AI-20260323-test
 
 ---
 
@@ -157,14 +191,15 @@
 | AI-20260320 | 20 Mar 2026 | Jason | 6 | 6 | Full run; TechCrunch, Bloomberg, Townhall |
 | AI-20260321 | 21 Mar 2026 | Jason, Jason Campbell | 7 | 1 | Saturday run; first dual-subscriber run |
 | AI-20260322 | 22 Mar 2026 | Jason, Jason Campbell | 2 | 7 | Sunday run; VentureBeat excluded that run |
-| AI-20260322-test | 22 Mar 2026 | Jason, Jason Campbell | 2 | 1 | Test run. Articles: Cursor/Kimi (TechCrunch, 8.98), Xiaomi MiMo (The Decoder, 8.4), Karpathy bottleneck (The Decoder, 7.65). Note: 2 Featured scored above 8.0 threshold; test run target of 1F+2HM not achievable without editorial override, which scoring rules prohibit. |
+| AI-20260322-test | 22 Mar 2026 | Jason, Jason Campbell | 2 | 1 | Test run. Articles: Cursor/Kimi (TechCrunch, 8.98), Xiaomi MiMo (The Decoder, 8.4), Karpathy bottleneck (The Decoder, 7.65). Note: 2 Featured scored above 8.0; 1F+2HM target not achievable without editorial override. |
+| AI-20260323-test | 23 Mar 2026 | Jason, Jason Campbell | 1 | 1 | Test run. Articles: Terafab/Engadget (8.2 → Featured), VentureBeat agentic AI (5.6 → HM), TechCrunch podcast teaser (4.9 → Skipped). Note: 3rd candidate fell below 5.0 threshold; result is 1F+1HM. Scoring rules prohibit editorial override. |
 
 ---
 
 ## Tracker Stats
 
-- **Total runs completed:** 5 (+ 1 test)
-- **Total sources tracked:** 20
+- **Total runs completed:** 5 regular (+ 2 tests)
+- **Total sources tracked:** 21
 - **Preferred sources:** The New Stack, VentureBeat, MIT Technology Review, Ars Technica, Wired, Import AI
 - **Permanently excluded sources:** None
 - **Active subscribers:** 2 (Jason, Jason Campbell)
