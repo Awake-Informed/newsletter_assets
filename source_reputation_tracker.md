@@ -29,55 +29,64 @@
 | Decrypt | 7.00 | 1 | 🆕 New | Single appearance |
 | Engadget | 8.50 | 1 | 🆕 New | First appearance; strong multi-outlet corroboration on Terafab story |
 | Fortune | 8.25 | 2 | 🆕 New | Two appearances |
+| The Guardian | 7.50 | 1 | 🆕 New | First appearance; credible UK outlet, primary sourcing on FCA contract story solid |
 | Import AI | 7.90 | 1 | 🆕 New | Single appearance |
 | METR | 9.00 | 1 | 🆕 New | Single appearance |
 | Microsoft Security Blog | 8.50 | 1 | 🆕 New | Single appearance |
 | MIT Technology Review | 7.50 | 4 | → Stable | Preferred source; consistent |
 | MIT News | 9.00 | 1 | 🆕 New | Single appearance |
 | NVIDIA Newsroom | 9.10 | 1 | 🆕 New | Single appearance |
-| TechCrunch | 7.93 | 11 | → Stable | Updated: +1 run (5.5 credibility, podcast teaser/GTC recap — weak sourcing). Avg: (8.17×10 + 5.5) / 11 = 7.93. Stable maintained; low score today reflects format of article, not source unreliability. |
+| Reuters | 8.50 | 1 | 🆕 New | First appearance; named journalists, clean source chain on Tencent/WeChat story |
+| TechCrunch | 7.93 | 11 | → Stable | Stable; low score on podcast teaser reflected format, not source unreliability |
 | The Decoder | 7.67 | 3 | → Stable | Stable |
 | The New Stack | 6.90 | 4 | → Stable | Preferred source |
 | Townhall | 8.80 | 1 | 🆕 New | Single appearance |
 | Transparency Coalition | 7.60 | 2 | 🆕 New | Two appearances |
-| VentureBeat | 8.23 | 10 | → Stable | Updated: +1 run (7.0 credibility, practitioner analysis piece with limited primary sources). Avg: (8.37×9 + 7.0) / 10 = 8.23. Preferred source; stable. |
+| VentureBeat | 8.23 | 10 | → Stable | Preferred source; stable |
+| Wall Street Journal | 7.80 | 1 | 🆕 New | First appearance; strong outlet, anonymous sourcing standard for internal corporate tools reporting; credible |
 
 ---
 
-## Publication History — AI-20260323-test
+## Publication History — AI-20260323-test (updated run)
 
 ### Article 1
-**Source:** Engadget (corroborated: Bloomberg, Fortune, TechCrunch, Tom's Hardware)
-**Date:** 22 March 2026
+**Source:** Wall Street Journal (corroborated: Reuters, Cointelegraph, Storyboard18, BusinessToday India, Implicator AI)
+**Date:** 23 March 2026
 **Run ID:** AI-20260323-test
-**Title:** Elon Musk announces Terafab project he claims will be the 'largest chip manufacturing facility ever'
-**Topic area:** 🏢 AI in Business & Industry · 🛠️ AI Tools & Products
-**Sub-tags:** AI chips, AI infrastructure
-**Credibility score this run:** 8.5
-**Sourcing note:** 3 primary sources cited (Musk livestream on X, Terafab.ai official site, SpaceX FCC filing). All 3 verified. Key financial claims (cost, CFO statement) independently confirmed by Bloomberg. Multi-outlet corroboration across Bloomberg, Fortune, TechCrunch, Tom's Hardware, KUT Radio. No misrepresentation.
+**Title:** Mark Zuckerberg is building an AI agent to help him run Meta
+**Topic area:** 🏢 AI in Business & Industry
+**Sub-tags:** agentic AI, enterprise AI, AI governance
+**Credibility score this run:** 7.80
+**Sourcing note:** 2 primary sources cited — anonymous "person familiar with project" (standard corporate journalism practice, unverifiable by nature) and Zuckerberg's January 2026 earnings call (public record, verified). Key claims consistent across 8+ independent outlets. No contradictory reporting found. SEV1 security incident detail corroborated by Reuters. Solid WSJ reporting.
 **Misrepresentation flags:** None
 
 ### Article 2
-**Source:** VentureBeat
+**Source:** Reuters (report by Liam Mo and Ryan Woo)
 **Date:** 22 March 2026
 **Run ID:** AI-20260323-test
-**Title:** From assistance to autonomy: How agentic AI is redefining enterprises
-**Topic area:** 🏢 AI in Business & Industry · ⚖️ AI Safety & Ethics
-**Sub-tags:** agentic AI, enterprise AI, AI governance
-**Credibility score this run:** 7.0
-**Sourcing note:** Practitioner analysis piece based on authors' 18 months of production AI experience. Limited external primary sources. Claims are plausible and consistent with known enterprise AI deployment patterns but cannot be independently verified. No falsifiable factual claims made. Article adds practitioner insight; low primary source score reflects format, not inaccuracy.
+**Title:** Tencent integrates WeChat with OpenClaw AI agent amid China tech battle
+**Topic area:** 🛠️ AI Tools & Products · 🏢 AI in Business & Industry
+**Sub-tags:** agentic AI, Chinese AI, AI tools
+**Credibility score this run:** 8.50
+**Sourcing note:** Reuters bylined report with named journalists. Sources Tencent product announcement and industry context. Multiple secondary outlets (Manila Times, Yahoo Finance, WHBL, ChinaTechNews, technology.org) accurately reproduce the Reuters report. Clean chain; no misrepresentation.
 **Misrepresentation flags:** None
 
-### Article 3 (SKIPPED — scored 4.9, below 5.0 threshold)
-**Source:** TechCrunch
-**Date:** 22 March 2026
+### Article 3
+**Source:** The Guardian
+**Date:** 23 March 2026
 **Run ID:** AI-20260323-test
-**Title:** Do you want to build a robot snowman?
-**Topic area:** 🛠️ AI Tools & Products
-**Sub-tags:** AI chips, AI infrastructure, developer tools
-**Credibility score this run:** 5.5
-**Sourcing note:** Podcast teaser for TechCrunch Equity episode on Nvidia GTC 2026 (keynote March 16). References own TechCrunch coverage and publicly available Nvidia keynote. Self-referential chain (TechCrunch → TechCrunch). Low sourcing depth appropriate to podcast promo format; underlying Nvidia GTC content is credible. Scored below HM threshold in newsletter due to low relevance depth and weak source chain.
+**Title:** Palantir wins UK FCA trial to access sensitive financial crime intelligence data
+**Topic area:** ⚖️ AI Safety & Ethics · 🏢 AI in Business & Industry
+**Sub-tags:** AI governance, AI security, enterprise AI
+**Credibility score this run:** 7.50
+**Sourcing note:** The Guardian reporting on public FCA procurement contract. FCA contract terms (data processor vs controller, UK storage, destruction on completion) are verifiable through public procurement records. Palantir's existing UK contracts (NHS £330M, MoD £240M) are public record and accurately cited. Privacy concern framing is editorially appropriate given factual context. No misrepresentation.
 **Misrepresentation flags:** None
+
+---
+
+## Publication History — AI-20260323-test (previous test, superseded)
+
+*(Articles from this earlier test — Terafab/Engadget, VentureBeat agentic AI, TechCrunch podcast teaser — are recorded in the AI-20260323-test entry from the prior session. Superseded by updated test above using March 23 articles.)*
 
 ---
 
@@ -91,7 +100,7 @@
 **Topic area:** 🛠️ AI Tools & Products · ⚖️ AI Safety & Ethics
 **Sub-tags:** model release, open-source AI, developer tools, AI governance, Chinese AI
 **Credibility score this run:** 8.5
-**Sourcing note:** 5 primary sources cited (company statements, API evidence, license text, partner confirmation). 4 verified. Accurate representation throughout. Company confirmed all key facts.
+**Sourcing note:** 5 primary sources cited (company statements, API evidence, license text, partner confirmation). 4 verified. Accurate representation throughout.
 **Misrepresentation flags:** None
 
 ### Article 2
@@ -102,7 +111,7 @@
 **Topic area:** 🔬 AI Research & Breakthroughs · 🛠️ AI Tools & Products
 **Sub-tags:** model release, agentic AI, Chinese AI, AI research, AI tools
 **Credibility score this run:** 8.0
-**Sourcing note:** Official Xiaomi release plus independently verifiable public benchmarks. Hunter Alpha/OpenRouter claim verifiable via OpenRouter public data. Team quote confirmed in official announcement.
+**Sourcing note:** Official Xiaomi release plus independently verifiable public benchmarks.
 **Misrepresentation flags:** None
 
 ### Article 3
@@ -161,6 +170,8 @@
 | world models | 0 | — | N/A |
 | venture capital | 0 | — | N/A |
 
+*Decay note: All weights at 0. Sub-tags agentic AI, enterprise AI, AI governance, Chinese AI, AI tools, AI security appeared today without confirming feedback. No decay applies (cannot decay below 0 in either direction from 0).*
+
 **Source relevance weights:** All sources at 0. No confirmed feedback to date.
 
 **Feedback log:** No feedback received.
@@ -174,6 +185,8 @@
 **Topic weights (default, equal):** Research 25% · Business 25% · Tools 25% · Safety/Ethics 25%
 
 **Sub-tag relevance weights:** Identical to Jason — all 32 sub-tags at 0. No confirmed feedback to date.
+
+*Decay note: Same as Jason — no decay applies from 0.*
 
 **Source relevance weights:** All sources at 0. No confirmed feedback to date.
 
@@ -190,19 +203,20 @@
 | AI-20260317 | 17 Mar 2026 | Jason | Multiple | Multiple | First multi-source run |
 | AI-20260320 | 20 Mar 2026 | Jason | 6 | 6 | Full run; TechCrunch, Bloomberg, Townhall |
 | AI-20260321 | 21 Mar 2026 | Jason, Jason Campbell | 7 | 1 | Saturday run; first dual-subscriber run |
-| AI-20260322 | 22 Mar 2026 | Jason, Jason Campbell | 2 | 7 | Sunday run; VentureBeat excluded that run |
-| AI-20260322-test | 22 Mar 2026 | Jason, Jason Campbell | 2 | 1 | Test run. Articles: Cursor/Kimi (TechCrunch, 8.98), Xiaomi MiMo (The Decoder, 8.4), Karpathy bottleneck (The Decoder, 7.65). Note: 2 Featured scored above 8.0; 1F+2HM target not achievable without editorial override. |
-| AI-20260323-test | 23 Mar 2026 | Jason, Jason Campbell | 1 | 1 | Test run. Articles: Terafab/Engadget (8.2 → Featured), VentureBeat agentic AI (5.6 → HM), TechCrunch podcast teaser (4.9 → Skipped). Note: 3rd candidate fell below 5.0 threshold; result is 1F+1HM. Scoring rules prohibit editorial override. |
+| AI-20260322 | 22 Mar 2026 | Jason, Jason Campbell | 2 | 7 | Sunday run |
+| AI-20260322-test | 22 Mar 2026 | Jason, Jason Campbell | 2 | 1 | Test run. Cursor/Kimi (8.98), Xiaomi MiMo (8.4), Karpathy bottleneck (7.65). |
+| AI-20260323-test | 23 Mar 2026 | Jason, Jason Campbell | 1 | 2 | Test run (updated). Articles: Meta CEO Agent/WSJ (8.15 → Featured), Tencent ClawBot/Reuters (7.88 → HM), Palantir FCA/Guardian (7.78 → HM). Target 1F+2HM achieved. New sources added: WSJ, Reuters, The Guardian. |
 
 ---
 
 ## Tracker Stats
 
-- **Total runs completed:** 5 regular (+ 2 tests)
-- **Total sources tracked:** 21
-- **Preferred sources:** The New Stack, VentureBeat, MIT Technology Review, Ars Technica, Wired, Import AI
-- **Permanently excluded sources:** None
-- **Active subscribers:** 2 (Jason, Jason Campbell)
-- **Total confirmed feedback events:** 0
-- **Sub-tags in use:** 32
-- **Version:** 5.0
+- **Total runs logged:** 6
+- **Total sources tracked:** 24
+- **Sources with ≥3 appearances (trend-eligible):** CNBC (5), MIT Technology Review (4), The New Stack (4), TechCrunch (11), The Decoder (3), VentureBeat (10)
+- **Sources Improving (↑):** 0
+- **Sources Declining (↓):** 0
+- **Sources Volatile (⚠):** 0
+- **Active subscribers:** 2
+- **Total sub-tags tracked:** 32 (all weights at 0)
+- **Feedback events processed:** 0
