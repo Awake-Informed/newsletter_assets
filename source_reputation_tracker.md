@@ -30,20 +30,145 @@
 | Engadget | 8.50 | 1 | 🆕 New | First appearance; strong multi-outlet corroboration on Terafab story |
 | Fortune | 8.25 | 2 | 🆕 New | Two appearances |
 | The Guardian | 7.50 | 1 | 🆕 New | First appearance; credible UK outlet, primary sourcing on FCA contract story solid |
-| Import AI | 7.90 | 1 | 🆕 New | Single appearance |
+| Import AI | 8.08 | 2 | 🆕 New | Two appearances; consistent quality across research summaries |
 | METR | 9.00 | 1 | 🆕 New | Single appearance |
 | Microsoft Security Blog | 8.50 | 1 | 🆕 New | Single appearance |
-| MIT Technology Review | 7.50 | 4 | → Stable | Preferred source; consistent |
+| MIT Technology Review | 7.73 | 5 | → Stable | Preferred source; consistent quality; improving slightly |
 | MIT News | 9.00 | 1 | 🆕 New | Single appearance |
 | NVIDIA Newsroom | 9.10 | 1 | 🆕 New | Single appearance |
 | Reuters | 8.50 | 1 | 🆕 New | First appearance; named journalists, clean source chain on Tencent/WeChat story |
-| TechCrunch | 7.93 | 11 | → Stable | Stable; low score on podcast teaser reflected format, not source unreliability |
+| TechCrunch | 7.86 | 12 | → Stable | Stable; mixed bag this run (strong investigative + lighter features) |
 | The Decoder | 7.67 | 3 | → Stable | Stable |
-| The New Stack | 6.90 | 4 | → Stable | Preferred source |
+| The New Stack | 7.32 | 5 | → Stable | Preferred source; strong security audit coverage this run |
 | Townhall | 8.80 | 1 | 🆕 New | Single appearance |
 | Transparency Coalition | 7.60 | 2 | 🆕 New | Two appearances |
 | VentureBeat | 8.23 | 10 | → Stable | Preferred source; stable |
 | Wall Street Journal | 7.80 | 1 | 🆕 New | First appearance; strong outlet, anonymous sourcing standard for internal corporate tools reporting; credible |
+
+---
+
+## Publication History — AI-20260323
+
+### Article 1
+**Source:** Import AI / Jack Clark (jack-clark.net)
+**Date:** 23 March 2026
+**Run ID:** AI-20260323
+**Title:** A Scaling Law for Cyberattacks: UK AISI Finds AI Offensive Capabilities Grow With Compute
+**Topic area:** 🔬 AI Research & Breakthroughs · ⚖️ AI Safety & Ethics
+**Sub-tags:** AI security, AI research, military AI
+**Credibility score this run:** 9.00
+**Sourcing note:** Primary source is UK AI Security Institute published analysis — a government body conducting first-party research. Jack Clark accurately summarises the key quantitative findings (1.7 → 9.8 attack steps; 59% gain at 100M tokens). Clean single-source chain; AISI is both reporter and researcher.
+**Misrepresentation flags:** None
+
+### Article 2
+**Source:** Import AI / Jack Clark (jack-clark.net)
+**Date:** 23 March 2026
+**Run ID:** AI-20260323
+**Title:** China's MERLIN: A Multimodal AI Built for Electronic Warfare Outperforms Frontier Models
+**Topic area:** 🔬 AI Research & Breakthroughs · ⚖️ AI Safety & Ethics
+**Sub-tags:** military AI, Chinese AI, autonomous weapons
+**Credibility score this run:** 9.00
+**Sourcing note:** Primary source is arXiv preprint 2603.08174 (Tsinghua University / NUDT). Dataset and benchmark claims (EM-100K, EM-Bench, 4,200 questions) are directly from the paper. Benchmark comparison results against named frontier models (GPT-5, Claude 4 Sonnet, DeepSeek) accurately reproduced. No secondary chain needed.
+**Misrepresentation flags:** None
+
+### Article 3
+**Source:** Import AI / Jack Clark (jack-clark.net)
+**Date:** 23 March 2026
+**Run ID:** AI-20260323
+**Title:** DeepMind Publishes Ten-Dimension Cognitive Taxonomy to Benchmark AI Against Human Intelligence
+**Topic area:** 🔬 AI Research & Breakthroughs
+**Sub-tags:** AI research, AI safety, world models
+**Credibility score this run:** 8.50
+**Sourcing note:** Primary source is Google DeepMind blog post and associated research paper. Ten dimensions accurately listed; three-stage evaluation methodology accurately described. Published by the primary author institution.
+**Misrepresentation flags:** None
+
+### Article 4
+**Source:** TechCrunch
+**Date:** 23 March 2026
+**Run ID:** AI-20260323
+**Title:** Elizabeth Warren Calls Pentagon's Decision to Bar Anthropic 'Retaliation'
+**Topic area:** ⚖️ AI Safety & Ethics · 🏢 AI in Business & Industry
+**Sub-tags:** AI governance, AI regulation, Anthropic
+**Credibility score this run:** 8.50
+**Sourcing note:** Primary sources: Senator Warren's published letter to Hegseth, Anthropic's First Amendment lawsuit filings, DoD public statements, open letter from tech workers (public document, signatories named). All four verified. Timeline of events (Anthropic's red lines → DoD designation → OpenAI/xAI deals → Warren letter) is accurate and supported by primary documents. Court hearing date confirmed.
+**Misrepresentation flags:** None
+
+### Article 5
+**Source:** MIT Technology Review
+**Date:** 23 March 2026
+**Run ID:** AI-20260323
+**Title:** The Bay Area's Animal Welfare Movement Wants to Recruit AI
+**Topic area:** ⚖️ AI Safety & Ethics · 🔬 AI Research & Breakthroughs
+**Sub-tags:** AI safety, AI governance, chatbot safety
+**Credibility score this run:** 8.65
+**Sourcing note:** Original long-form reporting with named interview subjects (Derek Shiller / Rethink Priorities), event attendance, and named organisation (Sentient Futures). Characterisations of EA funding connections are accurate. Editorially balanced — neither dismissive nor credulous. Clean original journalism; no secondary chain.
+**Misrepresentation flags:** None
+
+### Article 6
+**Source:** TechCrunch
+**Date:** 22 March 2026
+**Run ID:** AI-20260323
+**Title:** An Exclusive Tour of Amazon's Trainium Lab
+**Topic area:** 🛠️ AI Tools & Products · 🏢 AI in Business & Industry
+**Sub-tags:** AI chips, AI infrastructure, enterprise AI
+**Credibility score this run:** 8.50
+**Sourcing note:** First-party exclusive access journalism with named Amazon sources (Kristopher King, Mark Carroll). Key figures (1.4M chips deployed, 1M+ Trainium2 chips running Claude, 2GW commitment to OpenAI) are from on-record Amazon representatives. Consistent with prior public announcements.
+**Misrepresentation flags:** None
+
+### Article 7
+**Source:** The New Stack
+**Date:** 22 March 2026
+**Run ID:** AI-20260323
+**Title:** What a Security Audit of 22,511 AI Coding Skills Found Lurking in the Code
+**Topic area:** ⚖️ AI Safety & Ethics · 🛠️ AI Tools & Products
+**Sub-tags:** AI security, developer tools, prompt injection
+**Credibility score this run:** 9.00
+**Sourcing note:** Based on primary audit data (22,511 skills examined, 140,963 issues identified) by the reporting team / commissioned audit. Quantitative claims are specific and verifiable. The New Stack is an appropriate venue for this type of technical security journalism.
+**Misrepresentation flags:** None
+
+### Article 8
+**Source:** Import AI / Jack Clark (jack-clark.net)
+**Date:** 23 March 2026
+**Run ID:** AI-20260323
+**Title:** Google's Gemma and Gemini Show Distress-Like Responses Under Repeated Rejection
+**Topic area:** 🔬 AI Research & Breakthroughs · ⚖️ AI Safety & Ethics
+**Sub-tags:** AI safety, chatbot safety, AI research
+**Credibility score this run:** 7.50
+**Sourcing note:** Primary source is LessWrong post on Gemma's emotional stability. Secondary: DPO fine-tuning methodology is standard published technique. Specific statistics (70%+ high-frustration by 8th turn; 35% → 0.3% after DPO) taken from the underlying post. Jack Clark accurately represents the findings. LessWrong is a reasonable venue for this type of preliminary AI research discussion.
+**Misrepresentation flags:** None
+
+### Article 9
+**Source:** TechCrunch
+**Date:** 23 March 2026
+**Run ID:** AI-20260323
+**Title:** Helion and OpenAI Are in Talks to Build a Fusion Energy Plant for AI Data Centers
+**Topic area:** 🏢 AI in Business & Industry · 🛠️ AI Tools & Products
+**Sub-tags:** AI infrastructure, enterprise AI, OpenAI
+**Credibility score this run:** 7.00
+**Sourcing note:** Sourced from people familiar with the discussions — anonymous sourcing standard for business talks coverage. Microsoft's prior PPA with Helion is confirmed public record. No contradictory reporting found. Appropriate characterisation as "talks" rather than confirmed deal.
+**Misrepresentation flags:** None
+
+### Article 10
+**Source:** TechCrunch
+**Date:** 22 March 2026
+**Run ID:** AI-20260323
+**Title:** Do You Want to Build a Robot Snowman? Disney's Humanoid Robotics Program Is Growing
+**Topic area:** 🛠️ AI Tools & Products
+**Sub-tags:** agentic AI, AI tools
+**Credibility score this run:** 6.50
+**Sourcing note:** Feature/profile piece; lighter sourcing appropriate to format. Disney Research background is public record.
+**Misrepresentation flags:** None
+
+### Article 11
+**Source:** TechCrunch
+**Date:** 22 March 2026
+**Run ID:** AI-20260323
+**Title:** AI Compliance Startup Delve Accused of Faking Its Own Audit Results
+**Topic area:** ⚖️ AI Safety & Ethics · 🏢 AI in Business & Industry
+**Sub-tags:** AI governance, AI security
+**Credibility score this run:** 6.50
+**Sourcing note:** Allegations-based reporting; Delve has not publicly responded. TechCrunch appropriately attributes claims to the complainant. Pending outcome — limited verifiability at this stage.
+**Misrepresentation flags:** None — appropriately hedged as allegations
 
 ---
 
@@ -68,7 +193,7 @@
 **Topic area:** 🛠️ AI Tools & Products · 🏢 AI in Business & Industry
 **Sub-tags:** agentic AI, Chinese AI, AI tools
 **Credibility score this run:** 8.50
-**Sourcing note:** Reuters bylined report with named journalists. Sources Tencent product announcement and industry context. Multiple secondary outlets (Manila Times, Yahoo Finance, WHBL, ChinaTechNews, technology.org) accurately reproduce the Reuters report. Clean chain; no misrepresentation.
+**Sourcing note:** Reuters bylined report with named journalists. Sources Tencent product announcement and industry context. Multiple secondary outlets accurately reproduce. Clean chain; no misrepresentation.
 **Misrepresentation flags:** None
 
 ### Article 3
@@ -79,7 +204,7 @@
 **Topic area:** ⚖️ AI Safety & Ethics · 🏢 AI in Business & Industry
 **Sub-tags:** AI governance, AI security, enterprise AI
 **Credibility score this run:** 7.50
-**Sourcing note:** The Guardian reporting on public FCA procurement contract. FCA contract terms (data processor vs controller, UK storage, destruction on completion) are verifiable through public procurement records. Palantir's existing UK contracts (NHS £330M, MoD £240M) are public record and accurately cited. Privacy concern framing is editorially appropriate given factual context. No misrepresentation.
+**Sourcing note:** The Guardian reporting on public FCA procurement contract. FCA contract terms are verifiable through public procurement records. Palantir's existing UK contracts (NHS £330M, MoD £240M) are public record and accurately cited. No misrepresentation.
 **Misrepresentation flags:** None
 
 ---
@@ -170,13 +295,13 @@
 | world models | 0 | — | N/A |
 | venture capital | 0 | — | N/A |
 
-*Decay note: All weights at 0. Sub-tags agentic AI, enterprise AI, AI governance, Chinese AI, AI tools, AI security appeared today without confirming feedback. No decay applies (cannot decay below 0 in either direction from 0).*
+*Decay note: All weights at 0. Sub-tags appearing today (AI security, AI research, military AI, Chinese AI, autonomous weapons, world models, AI safety, AI governance, chatbot safety, AI chips, AI infrastructure, enterprise AI, developer tools, prompt injection, agentic AI, AI tools, AI regulation, Anthropic, OpenAI) appeared without confirming feedback. No decay applies (cannot decay below or above 0 from 0).*
 
 **Source relevance weights:** All sources at 0. No confirmed feedback to date.
 
 **Feedback log:** No feedback received.
 
-**Processed run IDs:** AI-20260317, AI-20260320, AI-20260321, AI-20260322, AI-20260322-test, AI-20260323-test
+**Processed run IDs:** AI-20260317, AI-20260320, AI-20260321, AI-20260322, AI-20260322-test, AI-20260323-test, AI-20260323
 
 ---
 
@@ -192,7 +317,7 @@
 
 **Feedback log:** No feedback received.
 
-**Processed run IDs:** AI-20260321, AI-20260322, AI-20260322-test, AI-20260323-test
+**Processed run IDs:** AI-20260321, AI-20260322, AI-20260322-test, AI-20260323-test, AI-20260323
 
 ---
 
@@ -206,14 +331,15 @@
 | AI-20260322 | 22 Mar 2026 | Jason, Jason Campbell | 2 | 7 | Sunday run |
 | AI-20260322-test | 22 Mar 2026 | Jason, Jason Campbell | 2 | 1 | Test run. Cursor/Kimi (8.98), Xiaomi MiMo (8.4), Karpathy bottleneck (7.65). |
 | AI-20260323-test | 23 Mar 2026 | Jason, Jason Campbell | 1 | 2 | Test run (updated). Articles: Meta CEO Agent/WSJ (8.15 → Featured), Tencent ClawBot/Reuters (7.88 → HM), Palantir FCA/Guardian (7.78 → HM). Target 1F+2HM achieved. New sources added: WSJ, Reuters, The Guardian. |
+| AI-20260323 | 23 Mar 2026 | Jason, Jason Campbell | 5 | 6 | Full run. Featured: UK Cyber Scaling Law/Import AI (9.20), China MERLIN/Import AI (9.00), DeepMind Cognitive Taxonomy/Import AI (8.85), Warren-Anthropic-Pentagon/TechCrunch (8.55), Bay Area Animal+AI Welfare/MIT Tech Review (8.45). 11 candidates total; 5 Featured, 6 HM. Import AI 450 dominated. |
 
 ---
 
 ## Tracker Stats
 
-- **Total runs logged:** 6
+- **Total runs logged:** 7
 - **Total sources tracked:** 24
-- **Sources with ≥3 appearances (trend-eligible):** CNBC (5), MIT Technology Review (4), The New Stack (4), TechCrunch (11), The Decoder (3), VentureBeat (10)
+- **Sources with ≥3 appearances (trend-eligible):** CNBC (5), MIT Technology Review (5), The New Stack (5), TechCrunch (12), The Decoder (3), VentureBeat (10)
 - **Sources Improving (↑):** 0
 - **Sources Declining (↓):** 0
 - **Sources Volatile (⚠):** 0
