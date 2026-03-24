@@ -7,17 +7,27 @@
       "volatile": "Standard deviation >1.5",
       "minAppearancesForTrend": 3
     },
-    "relevanceWeightBounds": { "min": -1.5, "max": 1.5 },
+    "relevanceWeightBounds": {
+      "min": -1.5,
+      "max": 1.5
+    },
     "decayRate": 0.2,
     "decayWindowDays": 14,
-    "tierDAutoPromotion": { "minAppearances": 3, "minIndividualScore": 7.0 },
-    "tierCPromotion": { "minAppearances": 10, "minAvg": 8.0, "minIndividualScore": 7.0 }
+    "tierDAutoPromotion": {
+      "minAppearances": 3,
+      "minIndividualScore": 7
+    },
+    "tierCPromotion": {
+      "minAppearances": 10,
+      "minAvg": 8,
+      "minIndividualScore": 7
+    }
   },
   "sources": {
     "Al Jazeera": {
       "domain": "aljazeera.com",
       "tier": "D",
-      "overallAvg": 8.80,
+      "overallAvg": 8.8,
       "appearances": 1,
       "trend": "new",
       "notes": "Single appearance"
@@ -25,7 +35,7 @@
     "Anthropic": {
       "domain": "anthropic.com",
       "tier": "A",
-      "overallAvg": 7.50,
+      "overallAvg": 7.5,
       "appearances": 1,
       "trend": "new",
       "notes": "Vendor primary source"
@@ -33,7 +43,7 @@
     "AI2Work": {
       "domain": "ai2work.com",
       "tier": "D",
-      "overallAvg": 6.50,
+      "overallAvg": 6.5,
       "appearances": 1,
       "trend": "new",
       "notes": "Single appearance"
@@ -41,7 +51,7 @@
     "Bloomberg": {
       "domain": "bloomberg.com",
       "tier": "C",
-      "overallAvg": 9.00,
+      "overallAvg": 9,
       "appearances": 2,
       "trend": "new",
       "notes": "Strong sourcing. In Tier C evaluation."
@@ -57,7 +67,7 @@
     "Dark Reading": {
       "domain": "darkreading.com",
       "tier": "D",
-      "overallAvg": 7.50,
+      "overallAvg": 7.5,
       "appearances": 1,
       "trend": "new",
       "notes": "Single appearance"
@@ -65,7 +75,7 @@
     "Decrypt": {
       "domain": "decrypt.co",
       "tier": "D",
-      "overallAvg": 7.00,
+      "overallAvg": 7,
       "appearances": 1,
       "trend": "new",
       "notes": "Single appearance"
@@ -73,7 +83,7 @@
     "Engadget": {
       "domain": "engadget.com",
       "tier": "D",
-      "overallAvg": 8.50,
+      "overallAvg": 8.5,
       "appearances": 1,
       "trend": "new",
       "notes": "First appearance; strong multi-outlet corroboration on Terafab story"
@@ -97,7 +107,7 @@
     "The Guardian": {
       "domain": "theguardian.com",
       "tier": "D",
-      "overallAvg": 7.50,
+      "overallAvg": 7.5,
       "appearances": 1,
       "trend": "new",
       "notes": "First appearance; credible UK outlet, primary sourcing on FCA contract story solid"
@@ -113,7 +123,7 @@
     "METR": {
       "domain": "metr.org",
       "tier": "D",
-      "overallAvg": 9.00,
+      "overallAvg": 9,
       "appearances": 1,
       "trend": "new",
       "notes": "Single appearance"
@@ -121,7 +131,7 @@
     "Microsoft Security Blog": {
       "domain": "microsoft.com",
       "tier": "A",
-      "overallAvg": 8.50,
+      "overallAvg": 8.5,
       "appearances": 1,
       "trend": "new",
       "notes": "Vendor primary source"
@@ -137,7 +147,7 @@
     "MIT News": {
       "domain": "news.mit.edu",
       "tier": "D",
-      "overallAvg": 9.00,
+      "overallAvg": 9,
       "appearances": 1,
       "trend": "new",
       "notes": "Single appearance"
@@ -145,7 +155,7 @@
     "NVIDIA Newsroom": {
       "domain": "nvidia.com",
       "tier": "A",
-      "overallAvg": 9.10,
+      "overallAvg": 9.1,
       "appearances": 1,
       "trend": "new",
       "notes": "Vendor primary source"
@@ -153,7 +163,7 @@
     "Reuters": {
       "domain": "reuters.com",
       "tier": "C",
-      "overallAvg": 8.50,
+      "overallAvg": 8.5,
       "appearances": 1,
       "trend": "new",
       "notes": "First appearance; named journalists, clean source chain on Tencent/WeChat story. In Tier C evaluation."
@@ -201,7 +211,7 @@
     "Townhall": {
       "domain": "townhall.com",
       "tier": "D",
-      "overallAvg": 8.80,
+      "overallAvg": 8.8,
       "appearances": 1,
       "trend": "new",
       "notes": "Single appearance"
@@ -209,7 +219,7 @@
     "Transparency Coalition": {
       "domain": "transparencycoalition.ai",
       "tier": "D",
-      "overallAvg": 7.60,
+      "overallAvg": 7.6,
       "appearances": 2,
       "trend": "new",
       "notes": "Two appearances"
@@ -225,7 +235,7 @@
     "Wall Street Journal": {
       "domain": "wsj.com",
       "tier": "C",
-      "overallAvg": 7.80,
+      "overallAvg": 7.8,
       "appearances": 1,
       "trend": "new",
       "notes": "First appearance; strong outlet, anonymous sourcing standard for internal corporate tools reporting; credible. In Tier C evaluation."
@@ -257,9 +267,16 @@
           "source": "Import AI",
           "date": "23 March 2026",
           "title": "A Scaling Law for Cyberattacks: UK AISI Finds AI Offensive Capabilities Grow With Compute",
-          "topics": ["research", "safety"],
-          "subtags": ["AI security", "AI research", "military AI"],
-          "score": 9.00,
+          "topics": [
+            "research",
+            "safety"
+          ],
+          "subtags": [
+            "AI security",
+            "AI research",
+            "military AI"
+          ],
+          "score": 9,
           "tier": "B",
           "sourcingNote": "Primary source is UK AI Security Institute published analysis. Jack Clark accurately summarises key quantitative findings. Clean single-source chain; AISI is both reporter and researcher.",
           "misrepresentationFlags": "None"
@@ -268,9 +285,16 @@
           "source": "Import AI",
           "date": "23 March 2026",
           "title": "China's MERLIN: A Multimodal AI Built for Electronic Warfare Outperforms Frontier Models",
-          "topics": ["research", "safety"],
-          "subtags": ["military AI", "Chinese AI", "autonomous weapons"],
-          "score": 9.00,
+          "topics": [
+            "research",
+            "safety"
+          ],
+          "subtags": [
+            "military AI",
+            "Chinese AI",
+            "autonomous weapons"
+          ],
+          "score": 9,
           "tier": "B",
           "sourcingNote": "Primary source is arXiv preprint 2603.08174 (Tsinghua University / NUDT). Benchmark claims directly from the paper. No secondary chain needed.",
           "misrepresentationFlags": "None"
@@ -279,9 +303,15 @@
           "source": "Import AI",
           "date": "23 March 2026",
           "title": "DeepMind Publishes Ten-Dimension Cognitive Taxonomy to Benchmark AI Against Human Intelligence",
-          "topics": ["research"],
-          "subtags": ["AI research", "AI safety", "world models"],
-          "score": 8.50,
+          "topics": [
+            "research"
+          ],
+          "subtags": [
+            "AI research",
+            "AI safety",
+            "world models"
+          ],
+          "score": 8.5,
           "tier": "B",
           "sourcingNote": "Primary source is Google DeepMind blog post and associated research paper. Ten dimensions accurately listed; methodology accurately described.",
           "misrepresentationFlags": "None"
@@ -290,9 +320,16 @@
           "source": "TechCrunch",
           "date": "23 March 2026",
           "title": "Elizabeth Warren Calls Pentagon's Decision to Bar Anthropic 'Retaliation'",
-          "topics": ["safety", "business"],
-          "subtags": ["AI governance", "AI regulation", "Anthropic"],
-          "score": 8.50,
+          "topics": [
+            "safety",
+            "business"
+          ],
+          "subtags": [
+            "AI governance",
+            "AI regulation",
+            "Anthropic"
+          ],
+          "score": 8.5,
           "tier": "D",
           "sourcingNote": "Primary sources: Senator Warren's letter, Anthropic lawsuit filings, DoD statements, open worker letter. All four verified. Timeline accurate and supported by primary documents.",
           "misrepresentationFlags": "None"
@@ -301,8 +338,15 @@
           "source": "MIT Technology Review",
           "date": "23 March 2026",
           "title": "The Bay Area's Animal Welfare Movement Wants to Recruit AI",
-          "topics": ["safety", "research"],
-          "subtags": ["AI safety", "AI governance", "chatbot safety"],
+          "topics": [
+            "safety",
+            "research"
+          ],
+          "subtags": [
+            "AI safety",
+            "AI governance",
+            "chatbot safety"
+          ],
           "score": 8.65,
           "tier": "B",
           "sourcingNote": "Original long-form reporting with named interview subjects. Editorially balanced. Clean original journalism; no secondary chain.",
@@ -312,9 +356,16 @@
           "source": "TechCrunch",
           "date": "22 March 2026",
           "title": "An Exclusive Tour of Amazon's Trainium Lab",
-          "topics": ["tools", "business"],
-          "subtags": ["AI chips", "AI infrastructure", "enterprise AI"],
-          "score": 8.50,
+          "topics": [
+            "tools",
+            "business"
+          ],
+          "subtags": [
+            "AI chips",
+            "AI infrastructure",
+            "enterprise AI"
+          ],
+          "score": 8.5,
           "tier": "D",
           "sourcingNote": "First-party exclusive access with named Amazon sources. Key figures from on-record Amazon representatives. Consistent with prior public announcements.",
           "misrepresentationFlags": "None"
@@ -323,9 +374,16 @@
           "source": "The New Stack",
           "date": "22 March 2026",
           "title": "What a Security Audit of 22,511 AI Coding Skills Found Lurking in the Code",
-          "topics": ["safety", "tools"],
-          "subtags": ["AI security", "developer tools", "prompt injection"],
-          "score": 9.00,
+          "topics": [
+            "safety",
+            "tools"
+          ],
+          "subtags": [
+            "AI security",
+            "developer tools",
+            "prompt injection"
+          ],
+          "score": 9,
           "tier": "B",
           "sourcingNote": "Based on primary audit data (22,511 skills examined, 140,963 issues identified). Quantitative claims specific and verifiable.",
           "misrepresentationFlags": "None"
@@ -334,9 +392,16 @@
           "source": "Import AI",
           "date": "23 March 2026",
           "title": "Google's Gemma and Gemini Show Distress-Like Responses Under Repeated Rejection",
-          "topics": ["research", "safety"],
-          "subtags": ["AI safety", "chatbot safety", "AI research"],
-          "score": 7.50,
+          "topics": [
+            "research",
+            "safety"
+          ],
+          "subtags": [
+            "AI safety",
+            "chatbot safety",
+            "AI research"
+          ],
+          "score": 7.5,
           "tier": "B",
           "sourcingNote": "Primary source is LessWrong post. Specific statistics accurately taken from the underlying post. LessWrong is reasonable venue for preliminary AI research.",
           "misrepresentationFlags": "None"
@@ -345,9 +410,16 @@
           "source": "TechCrunch",
           "date": "23 March 2026",
           "title": "Helion and OpenAI Are in Talks to Build a Fusion Energy Plant for AI Data Centers",
-          "topics": ["business", "tools"],
-          "subtags": ["AI infrastructure", "enterprise AI", "OpenAI"],
-          "score": 7.00,
+          "topics": [
+            "business",
+            "tools"
+          ],
+          "subtags": [
+            "AI infrastructure",
+            "enterprise AI",
+            "OpenAI"
+          ],
+          "score": 7,
           "tier": "D",
           "sourcingNote": "Anonymous sourcing standard for business talks coverage. Microsoft prior PPA confirmed public record. Appropriately characterised as talks.",
           "misrepresentationFlags": "None"
@@ -356,9 +428,14 @@
           "source": "TechCrunch",
           "date": "22 March 2026",
           "title": "Do You Want to Build a Robot Snowman? Disney's Humanoid Robotics Program Is Growing",
-          "topics": ["tools"],
-          "subtags": ["agentic AI", "AI tools"],
-          "score": 6.50,
+          "topics": [
+            "tools"
+          ],
+          "subtags": [
+            "agentic AI",
+            "AI tools"
+          ],
+          "score": 6.5,
           "tier": "D",
           "sourcingNote": "Feature/profile piece; lighter sourcing appropriate to format. Disney Research background is public record.",
           "misrepresentationFlags": "None"
@@ -367,9 +444,15 @@
           "source": "TechCrunch",
           "date": "22 March 2026",
           "title": "AI Compliance Startup Delve Accused of Faking Its Own Audit Results",
-          "topics": ["safety", "business"],
-          "subtags": ["AI governance", "AI security"],
-          "score": 6.50,
+          "topics": [
+            "safety",
+            "business"
+          ],
+          "subtags": [
+            "AI governance",
+            "AI security"
+          ],
+          "score": 6.5,
           "tier": "D",
           "sourcingNote": "Allegations-based reporting; Delve has not publicly responded. Appropriately attributed to complainant. Pending outcome.",
           "misrepresentationFlags": "None — appropriately hedged as allegations"
@@ -385,9 +468,15 @@
           "source": "Wall Street Journal",
           "date": "23 March 2026",
           "title": "Mark Zuckerberg is building an AI agent to help him run Meta",
-          "topics": ["business"],
-          "subtags": ["agentic AI", "enterprise AI", "AI governance"],
-          "score": 7.80,
+          "topics": [
+            "business"
+          ],
+          "subtags": [
+            "agentic AI",
+            "enterprise AI",
+            "AI governance"
+          ],
+          "score": 7.8,
           "tier": "C",
           "sourcingNote": "2 primary sources: anonymous person familiar (unverifiable by nature) and Zuckerberg January 2026 earnings call (verified). Claims consistent across 8+ independent outlets. SEV1 detail corroborated by Reuters.",
           "misrepresentationFlags": "None"
@@ -396,9 +485,16 @@
           "source": "Reuters",
           "date": "22 March 2026",
           "title": "Tencent integrates WeChat with OpenClaw AI agent amid China tech battle",
-          "topics": ["tools", "business"],
-          "subtags": ["agentic AI", "Chinese AI", "AI tools"],
-          "score": 8.50,
+          "topics": [
+            "tools",
+            "business"
+          ],
+          "subtags": [
+            "agentic AI",
+            "Chinese AI",
+            "AI tools"
+          ],
+          "score": 8.5,
           "tier": "C",
           "sourcingNote": "Reuters bylined report with named journalists. Sources Tencent product announcement and industry context. Clean chain.",
           "misrepresentationFlags": "None"
@@ -407,9 +503,16 @@
           "source": "The Guardian",
           "date": "23 March 2026",
           "title": "Palantir wins UK FCA trial to access sensitive financial crime intelligence data",
-          "topics": ["safety", "business"],
-          "subtags": ["AI governance", "AI security", "enterprise AI"],
-          "score": 7.50,
+          "topics": [
+            "safety",
+            "business"
+          ],
+          "subtags": [
+            "AI governance",
+            "AI security",
+            "enterprise AI"
+          ],
+          "score": 7.5,
           "tier": "D",
           "sourcingNote": "Reporting on public FCA procurement contract. FCA contract terms verifiable through public procurement records. Palantir UK contracts accurately cited.",
           "misrepresentationFlags": "None"
@@ -425,9 +528,18 @@
           "source": "TechCrunch",
           "date": "22 March 2026",
           "title": "Cursor admits its new coding model was built on top of Moonshot AI's Kimi",
-          "topics": ["tools", "safety"],
-          "subtags": ["model release", "open-source AI", "developer tools", "AI governance", "Chinese AI"],
-          "score": 8.50,
+          "topics": [
+            "tools",
+            "safety"
+          ],
+          "subtags": [
+            "model release",
+            "open-source AI",
+            "developer tools",
+            "AI governance",
+            "Chinese AI"
+          ],
+          "score": 8.5,
           "tier": "D",
           "sourcingNote": "5 primary sources cited; 4 verified (company statements, API evidence, license text, partner confirmation). Accurate representation.",
           "misrepresentationFlags": "None"
@@ -436,9 +548,18 @@
           "source": "The Decoder",
           "date": "22 March 2026",
           "title": "Xiaomi launches three MiMo AI models to power agents, robots, and voice",
-          "topics": ["research", "tools"],
-          "subtags": ["model release", "agentic AI", "Chinese AI", "AI research", "AI tools"],
-          "score": 8.00,
+          "topics": [
+            "research",
+            "tools"
+          ],
+          "subtags": [
+            "model release",
+            "agentic AI",
+            "Chinese AI",
+            "AI research",
+            "AI tools"
+          ],
+          "score": 8,
           "tier": "D",
           "sourcingNote": "Official Xiaomi release plus independently verifiable public benchmarks.",
           "misrepresentationFlags": "None"
@@ -447,100 +568,328 @@
           "source": "The Decoder",
           "date": "22 March 2026",
           "title": "Andrej Karpathy says humans are now the bottleneck in AI research",
-          "topics": ["research"],
-          "subtags": ["AI research", "agentic AI", "AI engineering"],
-          "score": 7.50,
+          "topics": [
+            "research"
+          ],
+          "subtags": [
+            "AI research",
+            "agentic AI",
+            "AI engineering"
+          ],
+          "score": 7.5,
           "tier": "D",
           "sourcingNote": "Single primary source (No Priors Podcast, YouTube). Direct quote verified. Short-form news brief; limited citation depth appropriate.",
           "misrepresentationFlags": "None"
         }
       ]
+    },
+    {
+      "runId": "AI-20260324",
+      "date": "24 March 2026",
+      "type": "full",
+      "articles": []
     }
   ],
   "subscribers": {
     "jmc04g@gmail.com": {
       "name": "Jason",
       "status": "active",
-      "topicWeights": { "research": 0.25, "business": 0.25, "tools": 0.25, "safety": 0.25 },
+      "topicWeights": {
+        "research": 0.25,
+        "business": 0.25,
+        "tools": 0.25,
+        "safety": 0.25
+      },
       "subtagWeights": {
-        "agentic AI":        { "weight": 0, "lastConfirmed": null },
-        "AI infrastructure": { "weight": 0, "lastConfirmed": null },
-        "enterprise AI":     { "weight": 0, "lastConfirmed": null },
-        "AI chips":          { "weight": 0, "lastConfirmed": null },
-        "AI safety":         { "weight": 0, "lastConfirmed": null },
-        "AI governance":     { "weight": 0, "lastConfirmed": null },
-        "OpenAI":            { "weight": 0, "lastConfirmed": null },
-        "Anthropic":         { "weight": 0, "lastConfirmed": null },
-        "MCP":               { "weight": 0, "lastConfirmed": null },
-        "AI engineering":    { "weight": 0, "lastConfirmed": null },
-        "developer tools":   { "weight": 0, "lastConfirmed": null },
-        "inference":         { "weight": 0, "lastConfirmed": null },
-        "cloud AI":          { "weight": 0, "lastConfirmed": null },
-        "military AI":       { "weight": 0, "lastConfirmed": null },
-        "autonomous weapons":{ "weight": 0, "lastConfirmed": null },
-        "model release":     { "weight": 0, "lastConfirmed": null },
-        "AI research":       { "weight": 0, "lastConfirmed": null },
-        "hallucinations":    { "weight": 0, "lastConfirmed": null },
-        "image generation":  { "weight": 0, "lastConfirmed": null },
-        "AI regulation":     { "weight": 0, "lastConfirmed": null },
-        "chatbot safety":    { "weight": 0, "lastConfirmed": null },
-        "deepfakes":         { "weight": 0, "lastConfirmed": null },
-        "AI security":       { "weight": 0, "lastConfirmed": null },
-        "prompt injection":  { "weight": 0, "lastConfirmed": null },
-        "Chinese AI":        { "weight": 0, "lastConfirmed": null },
-        "open-source AI":    { "weight": 0, "lastConfirmed": null },
-        "AI tools":          { "weight": 0, "lastConfirmed": null },
-        "export controls":   { "weight": 0, "lastConfirmed": null },
-        "federal preemption":{ "weight": 0, "lastConfirmed": null },
-        "world models":      { "weight": 0, "lastConfirmed": null },
-        "venture capital":   { "weight": 0, "lastConfirmed": null },
-        "Nvidia GTC":        { "weight": 0, "lastConfirmed": null }
+        "agentic AI": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI infrastructure": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "enterprise AI": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI chips": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI safety": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI governance": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "OpenAI": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "Anthropic": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "MCP": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI engineering": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "developer tools": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "inference": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "cloud AI": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "military AI": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "autonomous weapons": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "model release": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI research": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "hallucinations": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "image generation": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI regulation": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "chatbot safety": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "deepfakes": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI security": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "prompt injection": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "Chinese AI": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "open-source AI": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI tools": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "export controls": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "federal preemption": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "world models": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "venture capital": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "Nvidia GTC": {
+          "weight": 0,
+          "lastConfirmed": null
+        }
       },
       "sourceWeights": {},
       "feedbackLog": [],
-      "processedRunIds": ["AI-20260317", "AI-20260320", "AI-20260321", "AI-20260322", "AI-20260322-test", "AI-20260323-test", "AI-20260323"]
+      "processedRunIds": [
+        "AI-20260317",
+        "AI-20260320",
+        "AI-20260321",
+        "AI-20260322",
+        "AI-20260322-test",
+        "AI-20260323-test",
+        "AI-20260323"
+      ]
     },
     "jcampbell2@lululemon.com": {
       "name": "Jason Campbell",
       "status": "active",
-      "topicWeights": { "research": 0.25, "business": 0.25, "tools": 0.25, "safety": 0.25 },
+      "topicWeights": {
+        "research": 0.25,
+        "business": 0.25,
+        "tools": 0.25,
+        "safety": 0.25
+      },
       "subtagWeights": {
-        "agentic AI":        { "weight": 0, "lastConfirmed": null },
-        "AI infrastructure": { "weight": 0, "lastConfirmed": null },
-        "enterprise AI":     { "weight": 0, "lastConfirmed": null },
-        "AI chips":          { "weight": 0, "lastConfirmed": null },
-        "AI safety":         { "weight": 0, "lastConfirmed": null },
-        "AI governance":     { "weight": 0, "lastConfirmed": null },
-        "OpenAI":            { "weight": 0, "lastConfirmed": null },
-        "Anthropic":         { "weight": 0, "lastConfirmed": null },
-        "MCP":               { "weight": 0, "lastConfirmed": null },
-        "AI engineering":    { "weight": 0, "lastConfirmed": null },
-        "developer tools":   { "weight": 0, "lastConfirmed": null },
-        "inference":         { "weight": 0, "lastConfirmed": null },
-        "cloud AI":          { "weight": 0, "lastConfirmed": null },
-        "military AI":       { "weight": 0, "lastConfirmed": null },
-        "autonomous weapons":{ "weight": 0, "lastConfirmed": null },
-        "model release":     { "weight": 0, "lastConfirmed": null },
-        "AI research":       { "weight": 0, "lastConfirmed": null },
-        "hallucinations":    { "weight": 0, "lastConfirmed": null },
-        "image generation":  { "weight": 0, "lastConfirmed": null },
-        "AI regulation":     { "weight": 0, "lastConfirmed": null },
-        "chatbot safety":    { "weight": 0, "lastConfirmed": null },
-        "deepfakes":         { "weight": 0, "lastConfirmed": null },
-        "AI security":       { "weight": 0, "lastConfirmed": null },
-        "prompt injection":  { "weight": 0, "lastConfirmed": null },
-        "Chinese AI":        { "weight": 0, "lastConfirmed": null },
-        "open-source AI":    { "weight": 0, "lastConfirmed": null },
-        "AI tools":          { "weight": 0, "lastConfirmed": null },
-        "export controls":   { "weight": 0, "lastConfirmed": null },
-        "federal preemption":{ "weight": 0, "lastConfirmed": null },
-        "world models":      { "weight": 0, "lastConfirmed": null },
-        "venture capital":   { "weight": 0, "lastConfirmed": null },
-        "Nvidia GTC":        { "weight": 0, "lastConfirmed": null }
+        "agentic AI": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI infrastructure": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "enterprise AI": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI chips": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI safety": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI governance": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "OpenAI": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "Anthropic": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "MCP": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI engineering": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "developer tools": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "inference": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "cloud AI": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "military AI": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "autonomous weapons": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "model release": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI research": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "hallucinations": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "image generation": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI regulation": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "chatbot safety": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "deepfakes": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI security": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "prompt injection": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "Chinese AI": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "open-source AI": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "AI tools": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "export controls": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "federal preemption": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "world models": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "venture capital": {
+          "weight": 0,
+          "lastConfirmed": null
+        },
+        "Nvidia GTC": {
+          "weight": 0,
+          "lastConfirmed": null
+        }
       },
       "sourceWeights": {},
       "feedbackLog": [],
-      "processedRunIds": ["AI-20260321", "AI-20260322", "AI-20260322-test", "AI-20260323-test", "AI-20260323"]
+      "processedRunIds": [
+        "AI-20260321",
+        "AI-20260322",
+        "AI-20260322-test",
+        "AI-20260323-test",
+        "AI-20260323"
+      ]
     }
   },
   "runLog": [
@@ -548,7 +897,9 @@
       "runId": "AI-20260317",
       "date": "17 Mar 2026",
       "type": "full",
-      "subscribers": ["jmc04g@gmail.com"],
+      "subscribers": [
+        "jmc04g@gmail.com"
+      ],
       "featured": null,
       "hm": null,
       "notes": "First multi-source run"
@@ -557,7 +908,9 @@
       "runId": "AI-20260320",
       "date": "20 Mar 2026",
       "type": "full",
-      "subscribers": ["jmc04g@gmail.com"],
+      "subscribers": [
+        "jmc04g@gmail.com"
+      ],
       "featured": 6,
       "hm": 6,
       "notes": "Full run; TechCrunch, Bloomberg, Townhall"
@@ -566,7 +919,10 @@
       "runId": "AI-20260321",
       "date": "21 Mar 2026",
       "type": "full",
-      "subscribers": ["jmc04g@gmail.com", "jcampbell2@lululemon.com"],
+      "subscribers": [
+        "jmc04g@gmail.com",
+        "jcampbell2@lululemon.com"
+      ],
       "featured": 7,
       "hm": 1,
       "notes": "Saturday run; first dual-subscriber run"
@@ -575,7 +931,10 @@
       "runId": "AI-20260322",
       "date": "22 Mar 2026",
       "type": "full",
-      "subscribers": ["jmc04g@gmail.com", "jcampbell2@lululemon.com"],
+      "subscribers": [
+        "jmc04g@gmail.com",
+        "jcampbell2@lululemon.com"
+      ],
       "featured": 2,
       "hm": 7,
       "notes": "Sunday run"
@@ -584,7 +943,10 @@
       "runId": "AI-20260322-test",
       "date": "22 Mar 2026",
       "type": "test",
-      "subscribers": ["jmc04g@gmail.com", "jcampbell2@lululemon.com"],
+      "subscribers": [
+        "jmc04g@gmail.com",
+        "jcampbell2@lululemon.com"
+      ],
       "featured": 2,
       "hm": 1,
       "notes": "Test run. Cursor/Kimi (TechCrunch, 8.98), Xiaomi MiMo (The Decoder, 8.4), Karpathy bottleneck (The Decoder, 7.65)."
@@ -593,7 +955,10 @@
       "runId": "AI-20260323-test",
       "date": "23 Mar 2026",
       "type": "test",
-      "subscribers": ["jmc04g@gmail.com", "jcampbell2@lululemon.com"],
+      "subscribers": [
+        "jmc04g@gmail.com",
+        "jcampbell2@lululemon.com"
+      ],
       "featured": 1,
       "hm": 2,
       "notes": "Test run. Meta CEO Agent/WSJ (8.15 Featured), Tencent ClawBot/Reuters (7.88 HM), Palantir FCA/Guardian (7.78 HM). New sources: WSJ, Reuters, The Guardian."
@@ -602,16 +967,35 @@
       "runId": "AI-20260323",
       "date": "23 Mar 2026",
       "type": "full",
-      "subscribers": ["jmc04g@gmail.com", "jcampbell2@lululemon.com"],
+      "subscribers": [
+        "jmc04g@gmail.com",
+        "jcampbell2@lululemon.com"
+      ],
       "featured": 5,
       "hm": 6,
       "notes": "Full run. Featured: UK Cyber Scaling Law/Import AI (9.20), China MERLIN/Import AI (9.00), DeepMind Cognitive Taxonomy/Import AI (8.85), Warren-Anthropic-Pentagon/TechCrunch (8.55), Bay Area Animal+AI Welfare/MIT Tech Review (8.45). Import AI dominated."
+    },
+    {
+      "runId": "AI-20260324",
+      "date": "24 Mar 2026",
+      "type": "full",
+      "subscribers": [],
+      "featured": 0,
+      "hm": 0,
+      "notes": "Full run. No articles evaluated; no subscribers received this run."
     }
   ],
   "stats": {
-    "totalRuns": 7,
+    "totalRuns": 8,
     "totalSources": 29,
-    "trendEligibleSources": ["CNBC", "MIT Technology Review", "The New Stack", "TechCrunch", "The Decoder", "VentureBeat"],
+    "trendEligibleSources": [
+      "CNBC",
+      "MIT Technology Review",
+      "The New Stack",
+      "TechCrunch",
+      "The Decoder",
+      "VentureBeat"
+    ],
     "improving": 0,
     "declining": 0,
     "volatile": 0,
