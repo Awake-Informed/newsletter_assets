@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "config": {
     "trendThresholds": {
       "improving": "Recent 3-run average exceeds overall average by >0.5",
@@ -59,10 +59,10 @@
     "CNBC": {
       "domain": "cnbc.com",
       "tier": "C",
-      "overallAvg": 8.22,
-      "appearances": 5,
+      "overallAvg": 7.62,
+      "appearances": 6,
       "trend": "stable",
-      "notes": "Consistent performance. In Tier C evaluation."
+      "notes": "Avg declining (8.22 → 7.62); one low-scoring article (4.60, self-referential sourcing on Alibaba story). In Tier C evaluation."
     },
     "Dark Reading": {
       "domain": "darkreading.com",
@@ -99,10 +99,10 @@
     "Fortune": {
       "domain": "fortune.com",
       "tier": "D",
-      "overallAvg": 8.25,
-      "appearances": 2,
-      "trend": "new",
-      "notes": "Two appearances"
+      "overallAvg": 6.93,
+      "appearances": 3,
+      "trend": "stable",
+      "notes": "Three appearances; avg declined to 6.93 — latest article (4.30) had broken source chain and unverified claims. Trend now evaluable."
     },
     "The Guardian": {
       "domain": "theguardian.com",
@@ -115,10 +115,18 @@
     "Import AI": {
       "domain": "importai.substack.com",
       "tier": "B",
-      "overallAvg": 8.08,
-      "appearances": 2,
+      "overallAvg": 7.19,
+      "appearances": 3,
+      "trend": "stable",
+      "notes": "Preferred source. Three appearances; usually strong research summaries; lower score on Mar 2 issue (5.40 — older content, weak secondary chain on MIT/WashU/UCLA paper). Trend now evaluable."
+    },
+    "Live Science": {
+      "domain": "livescience.com",
+      "tier": "D",
+      "overallAvg": 4.7,
+      "appearances": 1,
       "trend": "new",
-      "notes": "Preferred source. Two appearances; consistent quality across research summaries."
+      "notes": "First appearance; low score (4.70) — self-referential sourcing, primary paper not independently fetched"
     },
     "METR": {
       "domain": "metr.org",
@@ -139,10 +147,10 @@
     "MIT Technology Review": {
       "domain": "technologyreview.com",
       "tier": "B",
-      "overallAvg": 7.73,
-      "appearances": 5,
+      "overallAvg": 7.53,
+      "appearances": 6,
       "trend": "stable",
-      "notes": "Preferred source; consistent quality; improving slightly"
+      "notes": "Preferred source; slight avg decline (7.73 → 7.53); AI delusions article scored 6.50 due to weak secondary chain (underlying Stanford paper not fetched)"
     },
     "MIT News": {
       "domain": "news.mit.edu",
@@ -155,10 +163,10 @@
     "NVIDIA Newsroom": {
       "domain": "nvidia.com",
       "tier": "A",
-      "overallAvg": 9.1,
-      "appearances": 1,
+      "overallAvg": 8.95,
+      "appearances": 2,
       "trend": "new",
-      "notes": "Vendor primary source"
+      "notes": "Vendor primary source; two appearances"
     },
     "Reuters": {
       "domain": "reuters.com",
@@ -179,10 +187,10 @@
     "TechCrunch": {
       "domain": "techcrunch.com",
       "tier": "D",
-      "overallAvg": 7.86,
-      "appearances": 12,
+      "overallAvg": 7.49,
+      "appearances": 14,
       "trend": "stable",
-      "notes": "Stable; mixed bag — strong investigative pieces alongside lighter features and podcast content"
+      "notes": "Stable overall but recent quality uneven; avg declined from 7.86 to 7.49 — today included one very low score (3.80, unverifiable/thin coverage). Mixed bag of strong investigative pieces and weak self-referential articles."
     },
     "The Batch": {
       "domain": "deeplearning.ai",
@@ -267,15 +275,8 @@
           "source": "Import AI",
           "date": "23 March 2026",
           "title": "A Scaling Law for Cyberattacks: UK AISI Finds AI Offensive Capabilities Grow With Compute",
-          "topics": [
-            "research",
-            "safety"
-          ],
-          "subtags": [
-            "AI security",
-            "AI research",
-            "military AI"
-          ],
+          "topics": ["research", "safety"],
+          "subtags": ["AI security", "AI research", "military AI"],
           "score": 9,
           "tier": "B",
           "sourcingNote": "Primary source is UK AI Security Institute published analysis. Jack Clark accurately summarises key quantitative findings. Clean single-source chain; AISI is both reporter and researcher.",
@@ -285,15 +286,8 @@
           "source": "Import AI",
           "date": "23 March 2026",
           "title": "China's MERLIN: A Multimodal AI Built for Electronic Warfare Outperforms Frontier Models",
-          "topics": [
-            "research",
-            "safety"
-          ],
-          "subtags": [
-            "military AI",
-            "Chinese AI",
-            "autonomous weapons"
-          ],
+          "topics": ["research", "safety"],
+          "subtags": ["military AI", "Chinese AI", "autonomous weapons"],
           "score": 9,
           "tier": "B",
           "sourcingNote": "Primary source is arXiv preprint 2603.08174 (Tsinghua University / NUDT). Benchmark claims directly from the paper. No secondary chain needed.",
@@ -303,14 +297,8 @@
           "source": "Import AI",
           "date": "23 March 2026",
           "title": "DeepMind Publishes Ten-Dimension Cognitive Taxonomy to Benchmark AI Against Human Intelligence",
-          "topics": [
-            "research"
-          ],
-          "subtags": [
-            "AI research",
-            "AI safety",
-            "world models"
-          ],
+          "topics": ["research"],
+          "subtags": ["AI research", "AI safety", "world models"],
           "score": 8.5,
           "tier": "B",
           "sourcingNote": "Primary source is Google DeepMind blog post and associated research paper. Ten dimensions accurately listed; methodology accurately described.",
@@ -320,15 +308,8 @@
           "source": "TechCrunch",
           "date": "23 March 2026",
           "title": "Elizabeth Warren Calls Pentagon's Decision to Bar Anthropic 'Retaliation'",
-          "topics": [
-            "safety",
-            "business"
-          ],
-          "subtags": [
-            "AI governance",
-            "AI regulation",
-            "Anthropic"
-          ],
+          "topics": ["safety", "business"],
+          "subtags": ["AI governance", "AI regulation", "Anthropic"],
           "score": 8.5,
           "tier": "D",
           "sourcingNote": "Primary sources: Senator Warren's letter, Anthropic lawsuit filings, DoD statements, open worker letter. All four verified. Timeline accurate and supported by primary documents.",
@@ -338,15 +319,8 @@
           "source": "MIT Technology Review",
           "date": "23 March 2026",
           "title": "The Bay Area's Animal Welfare Movement Wants to Recruit AI",
-          "topics": [
-            "safety",
-            "research"
-          ],
-          "subtags": [
-            "AI safety",
-            "AI governance",
-            "chatbot safety"
-          ],
+          "topics": ["safety", "research"],
+          "subtags": ["AI safety", "AI governance", "chatbot safety"],
           "score": 8.65,
           "tier": "B",
           "sourcingNote": "Original long-form reporting with named interview subjects. Editorially balanced. Clean original journalism; no secondary chain.",
@@ -356,15 +330,8 @@
           "source": "TechCrunch",
           "date": "22 March 2026",
           "title": "An Exclusive Tour of Amazon's Trainium Lab",
-          "topics": [
-            "tools",
-            "business"
-          ],
-          "subtags": [
-            "AI chips",
-            "AI infrastructure",
-            "enterprise AI"
-          ],
+          "topics": ["tools", "business"],
+          "subtags": ["AI chips", "AI infrastructure", "enterprise AI"],
           "score": 8.5,
           "tier": "D",
           "sourcingNote": "First-party exclusive access with named Amazon sources. Key figures from on-record Amazon representatives. Consistent with prior public announcements.",
@@ -374,15 +341,8 @@
           "source": "The New Stack",
           "date": "22 March 2026",
           "title": "What a Security Audit of 22,511 AI Coding Skills Found Lurking in the Code",
-          "topics": [
-            "safety",
-            "tools"
-          ],
-          "subtags": [
-            "AI security",
-            "developer tools",
-            "prompt injection"
-          ],
+          "topics": ["safety", "tools"],
+          "subtags": ["AI security", "developer tools", "prompt injection"],
           "score": 9,
           "tier": "B",
           "sourcingNote": "Based on primary audit data (22,511 skills examined, 140,963 issues identified). Quantitative claims specific and verifiable.",
@@ -392,15 +352,8 @@
           "source": "Import AI",
           "date": "23 March 2026",
           "title": "Google's Gemma and Gemini Show Distress-Like Responses Under Repeated Rejection",
-          "topics": [
-            "research",
-            "safety"
-          ],
-          "subtags": [
-            "AI safety",
-            "chatbot safety",
-            "AI research"
-          ],
+          "topics": ["research", "safety"],
+          "subtags": ["AI safety", "chatbot safety", "AI research"],
           "score": 7.5,
           "tier": "B",
           "sourcingNote": "Primary source is LessWrong post. Specific statistics accurately taken from the underlying post. LessWrong is reasonable venue for preliminary AI research.",
@@ -410,15 +363,8 @@
           "source": "TechCrunch",
           "date": "23 March 2026",
           "title": "Helion and OpenAI Are in Talks to Build a Fusion Energy Plant for AI Data Centers",
-          "topics": [
-            "business",
-            "tools"
-          ],
-          "subtags": [
-            "AI infrastructure",
-            "enterprise AI",
-            "OpenAI"
-          ],
+          "topics": ["business", "tools"],
+          "subtags": ["AI infrastructure", "enterprise AI", "OpenAI"],
           "score": 7,
           "tier": "D",
           "sourcingNote": "Anonymous sourcing standard for business talks coverage. Microsoft prior PPA confirmed public record. Appropriately characterised as talks.",
@@ -428,13 +374,8 @@
           "source": "TechCrunch",
           "date": "22 March 2026",
           "title": "Do You Want to Build a Robot Snowman? Disney's Humanoid Robotics Program Is Growing",
-          "topics": [
-            "tools"
-          ],
-          "subtags": [
-            "agentic AI",
-            "AI tools"
-          ],
+          "topics": ["tools"],
+          "subtags": ["agentic AI", "AI tools"],
           "score": 6.5,
           "tier": "D",
           "sourcingNote": "Feature/profile piece; lighter sourcing appropriate to format. Disney Research background is public record.",
@@ -444,14 +385,8 @@
           "source": "TechCrunch",
           "date": "22 March 2026",
           "title": "AI Compliance Startup Delve Accused of Faking Its Own Audit Results",
-          "topics": [
-            "safety",
-            "business"
-          ],
-          "subtags": [
-            "AI governance",
-            "AI security"
-          ],
+          "topics": ["safety", "business"],
+          "subtags": ["AI governance", "AI security"],
           "score": 6.5,
           "tier": "D",
           "sourcingNote": "Allegations-based reporting; Delve has not publicly responded. Appropriately attributed to complainant. Pending outcome.",
@@ -468,14 +403,8 @@
           "source": "Wall Street Journal",
           "date": "23 March 2026",
           "title": "Mark Zuckerberg is building an AI agent to help him run Meta",
-          "topics": [
-            "business"
-          ],
-          "subtags": [
-            "agentic AI",
-            "enterprise AI",
-            "AI governance"
-          ],
+          "topics": ["business"],
+          "subtags": ["agentic AI", "enterprise AI", "AI governance"],
           "score": 7.8,
           "tier": "C",
           "sourcingNote": "2 primary sources: anonymous person familiar (unverifiable by nature) and Zuckerberg January 2026 earnings call (verified). Claims consistent across 8+ independent outlets. SEV1 detail corroborated by Reuters.",
@@ -485,15 +414,8 @@
           "source": "Reuters",
           "date": "22 March 2026",
           "title": "Tencent integrates WeChat with OpenClaw AI agent amid China tech battle",
-          "topics": [
-            "tools",
-            "business"
-          ],
-          "subtags": [
-            "agentic AI",
-            "Chinese AI",
-            "AI tools"
-          ],
+          "topics": ["tools", "business"],
+          "subtags": ["agentic AI", "Chinese AI", "AI tools"],
           "score": 8.5,
           "tier": "C",
           "sourcingNote": "Reuters bylined report with named journalists. Sources Tencent product announcement and industry context. Clean chain.",
@@ -503,15 +425,8 @@
           "source": "The Guardian",
           "date": "23 March 2026",
           "title": "Palantir wins UK FCA trial to access sensitive financial crime intelligence data",
-          "topics": [
-            "safety",
-            "business"
-          ],
-          "subtags": [
-            "AI governance",
-            "AI security",
-            "enterprise AI"
-          ],
+          "topics": ["safety", "business"],
+          "subtags": ["AI governance", "AI security", "enterprise AI"],
           "score": 7.5,
           "tier": "D",
           "sourcingNote": "Reporting on public FCA procurement contract. FCA contract terms verifiable through public procurement records. Palantir UK contracts accurately cited.",
@@ -528,17 +443,8 @@
           "source": "TechCrunch",
           "date": "22 March 2026",
           "title": "Cursor admits its new coding model was built on top of Moonshot AI's Kimi",
-          "topics": [
-            "tools",
-            "safety"
-          ],
-          "subtags": [
-            "model release",
-            "open-source AI",
-            "developer tools",
-            "AI governance",
-            "Chinese AI"
-          ],
+          "topics": ["tools", "safety"],
+          "subtags": ["model release", "open-source AI", "developer tools", "AI governance", "Chinese AI"],
           "score": 8.5,
           "tier": "D",
           "sourcingNote": "5 primary sources cited; 4 verified (company statements, API evidence, license text, partner confirmation). Accurate representation.",
@@ -548,17 +454,8 @@
           "source": "The Decoder",
           "date": "22 March 2026",
           "title": "Xiaomi launches three MiMo AI models to power agents, robots, and voice",
-          "topics": [
-            "research",
-            "tools"
-          ],
-          "subtags": [
-            "model release",
-            "agentic AI",
-            "Chinese AI",
-            "AI research",
-            "AI tools"
-          ],
+          "topics": ["research", "tools"],
+          "subtags": ["model release", "agentic AI", "Chinese AI", "AI research", "AI tools"],
           "score": 8,
           "tier": "D",
           "sourcingNote": "Official Xiaomi release plus independently verifiable public benchmarks.",
@@ -568,14 +465,8 @@
           "source": "The Decoder",
           "date": "22 March 2026",
           "title": "Andrej Karpathy says humans are now the bottleneck in AI research",
-          "topics": [
-            "research"
-          ],
-          "subtags": [
-            "AI research",
-            "agentic AI",
-            "AI engineering"
-          ],
+          "topics": ["research"],
+          "subtags": ["AI research", "agentic AI", "AI engineering"],
           "score": 7.5,
           "tier": "D",
           "sourcingNote": "Single primary source (No Priors Podcast, YouTube). Direct quote verified. Short-form news brief; limited citation depth appropriate.",
@@ -588,6 +479,109 @@
       "date": "24 March 2026",
       "type": "full",
       "articles": []
+    },
+    {
+      "runId": "AI-20260324-sandbox",
+      "date": "24 March 2026",
+      "type": "test",
+      "articles": [
+        {
+          "source": "NVIDIA Newsroom",
+          "date": "5 Jan 2026",
+          "title": "NVIDIA Kicks Off the Next Generation of AI With Rubin — Six New Chips, One Incredible AI Supercomputer",
+          "topics": ["tools", "business"],
+          "subtags": ["AI chips", "AI infrastructure", "inference"],
+          "score": 8.8,
+          "newsletterTier": "featured",
+          "tier": "A",
+          "sourcingNote": "Vendor primary source; authoritative on own product specifications. No independent sourcing required.",
+          "misrepresentationFlags": "None"
+        },
+        {
+          "source": "TechCrunch",
+          "date": "17 Mar 2026",
+          "title": "Mistral bets on 'build-your-own AI' as it takes on OpenAI, Anthropic in the enterprise",
+          "topics": ["tools", "business"],
+          "subtags": ["enterprise AI", "AI tools", "model release", "open-source AI"],
+          "score": 6.8,
+          "newsletterTier": "hm",
+          "tier": "D",
+          "sourcingNote": "2 primary sources cited, 2 fetched. Key claims confirmed by Mistral official announcement. Clean source chain.",
+          "misrepresentationFlags": "None"
+        },
+        {
+          "source": "MIT Technology Review",
+          "date": "23 Mar 2026",
+          "title": "The hardest question to answer about AI-fueled delusions",
+          "topics": ["safety", "research"],
+          "subtags": ["AI safety", "hallucinations", "chatbot safety"],
+          "score": 6.5,
+          "newsletterTier": "hm",
+          "tier": "B",
+          "sourcingNote": "2 primary sources cited, 2 fetched. Claims corroborated across two independent reports on same Stanford research; underlying paper not fetched. Weak secondary chain.",
+          "misrepresentationFlags": "None"
+        },
+        {
+          "source": "Import AI",
+          "date": "2 Mar 2026",
+          "title": "Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies",
+          "topics": ["research", "business"],
+          "subtags": ["AI research", "agentic AI"],
+          "score": 5.4,
+          "newsletterTier": "hm",
+          "tier": "B",
+          "sourcingNote": "1 primary source cited, 1 fetched (newsletter post; underlying MIT/WashU/UCLA paper not fetched). Trusted synthesis source; conclusions internally consistent. Weak secondary chain.",
+          "misrepresentationFlags": "None"
+        },
+        {
+          "source": "Live Science",
+          "date": "12 Mar 2026",
+          "title": "AI hallucinations work both ways, study shows — using chatbots can amplify and reinforce our own delusions",
+          "topics": ["safety", "research"],
+          "subtags": ["AI safety", "hallucinations"],
+          "score": 4.7,
+          "newsletterTier": "skipped",
+          "tier": "D",
+          "sourcingNote": "1 primary source cited, 1 fetched (self-referential). Partially verifiable — corroborated by MIT Tech Review coverage of same research.",
+          "misrepresentationFlags": "None"
+        },
+        {
+          "source": "CNBC",
+          "date": "20 Mar 2026",
+          "title": "Alibaba workforce shrinks 34% in 2025 as Chinese tech giant doubles down on AI",
+          "topics": ["business"],
+          "subtags": ["Chinese AI", "enterprise AI", "AI infrastructure"],
+          "score": 4.6,
+          "newsletterTier": "skipped",
+          "tier": "C",
+          "sourcingNote": "1 primary source cited, 1 fetched (self-referential; no Alibaba official source fetched). Specific figures suggest official data access; strategy claims unverified.",
+          "misrepresentationFlags": "None"
+        },
+        {
+          "source": "Fortune",
+          "date": "21 Mar 2026",
+          "title": "OpenAI plans to almost double its headcount this year, FT says",
+          "topics": ["business"],
+          "subtags": ["OpenAI", "venture capital"],
+          "score": 4.3,
+          "newsletterTier": "skipped",
+          "tier": "D",
+          "sourcingNote": "1 primary source cited, 1 fetched (self-referential; FT original not fetched). Headline claim plausible; superapp merger and Astral acquisition claims unverified. Broken source chain.",
+          "misrepresentationFlags": "Unverified claims: ChatGPT/Codex/Atlas superapp merger; Astral acquisition"
+        },
+        {
+          "source": "TechCrunch",
+          "date": "24 Mar 2026",
+          "title": "OpenAI's plans to make ChatGPT more like Amazon aren't going so well",
+          "topics": ["tools"],
+          "subtags": ["OpenAI", "AI tools"],
+          "score": 3.8,
+          "newsletterTier": "skipped",
+          "tier": "D",
+          "sourcingNote": "1 primary source cited, 1 fetched (self-referential only). Unverifiable — no independent primary source; article text too thin to verify.",
+          "misrepresentationFlags": "None identified"
+        }
+      ]
     }
   ],
   "subscribers": {
@@ -739,7 +733,8 @@
         "AI-20260322",
         "AI-20260322-test",
         "AI-20260323-test",
-        "AI-20260323"
+        "AI-20260323",
+        "AI-20260324-sandbox"
       ]
     },
     "jcampbell2@lululemon.com": {
@@ -897,9 +892,7 @@
       "runId": "AI-20260317",
       "date": "17 Mar 2026",
       "type": "full",
-      "subscribers": [
-        "jmc04g@gmail.com"
-      ],
+      "subscribers": ["jmc04g@gmail.com"],
       "featured": null,
       "hm": null,
       "notes": "First multi-source run"
@@ -908,9 +901,7 @@
       "runId": "AI-20260320",
       "date": "20 Mar 2026",
       "type": "full",
-      "subscribers": [
-        "jmc04g@gmail.com"
-      ],
+      "subscribers": ["jmc04g@gmail.com"],
       "featured": 6,
       "hm": 6,
       "notes": "Full run; TechCrunch, Bloomberg, Townhall"
@@ -919,10 +910,7 @@
       "runId": "AI-20260321",
       "date": "21 Mar 2026",
       "type": "full",
-      "subscribers": [
-        "jmc04g@gmail.com",
-        "jcampbell2@lululemon.com"
-      ],
+      "subscribers": ["jmc04g@gmail.com", "jcampbell2@lululemon.com"],
       "featured": 7,
       "hm": 1,
       "notes": "Saturday run; first dual-subscriber run"
@@ -931,10 +919,7 @@
       "runId": "AI-20260322",
       "date": "22 Mar 2026",
       "type": "full",
-      "subscribers": [
-        "jmc04g@gmail.com",
-        "jcampbell2@lululemon.com"
-      ],
+      "subscribers": ["jmc04g@gmail.com", "jcampbell2@lululemon.com"],
       "featured": 2,
       "hm": 7,
       "notes": "Sunday run"
@@ -943,10 +928,7 @@
       "runId": "AI-20260322-test",
       "date": "22 Mar 2026",
       "type": "test",
-      "subscribers": [
-        "jmc04g@gmail.com",
-        "jcampbell2@lululemon.com"
-      ],
+      "subscribers": ["jmc04g@gmail.com", "jcampbell2@lululemon.com"],
       "featured": 2,
       "hm": 1,
       "notes": "Test run. Cursor/Kimi (TechCrunch, 8.98), Xiaomi MiMo (The Decoder, 8.4), Karpathy bottleneck (The Decoder, 7.65)."
@@ -955,10 +937,7 @@
       "runId": "AI-20260323-test",
       "date": "23 Mar 2026",
       "type": "test",
-      "subscribers": [
-        "jmc04g@gmail.com",
-        "jcampbell2@lululemon.com"
-      ],
+      "subscribers": ["jmc04g@gmail.com", "jcampbell2@lululemon.com"],
       "featured": 1,
       "hm": 2,
       "notes": "Test run. Meta CEO Agent/WSJ (8.15 Featured), Tencent ClawBot/Reuters (7.88 HM), Palantir FCA/Guardian (7.78 HM). New sources: WSJ, Reuters, The Guardian."
@@ -967,10 +946,7 @@
       "runId": "AI-20260323",
       "date": "23 Mar 2026",
       "type": "full",
-      "subscribers": [
-        "jmc04g@gmail.com",
-        "jcampbell2@lululemon.com"
-      ],
+      "subscribers": ["jmc04g@gmail.com", "jcampbell2@lululemon.com"],
       "featured": 5,
       "hm": 6,
       "notes": "Full run. Featured: UK Cyber Scaling Law/Import AI (9.20), China MERLIN/Import AI (9.00), DeepMind Cognitive Taxonomy/Import AI (8.85), Warren-Anthropic-Pentagon/TechCrunch (8.55), Bay Area Animal+AI Welfare/MIT Tech Review (8.45). Import AI dominated."
@@ -983,18 +959,29 @@
       "featured": 0,
       "hm": 0,
       "notes": "Full run. No articles evaluated; no subscribers received this run."
+    },
+    {
+      "runId": "AI-20260324-sandbox",
+      "date": "24 Mar 2026",
+      "type": "test",
+      "subscribers": ["jmc04g@gmail.com"],
+      "featured": 1,
+      "hm": 3,
+      "notes": "Sandbox test run. Featured: NVIDIA Rubin Platform/NVIDIA Newsroom (8.80). HMs: Mistral Forge/TechCrunch (6.80), AI-Fuelled Delusions/MIT Technology Review (6.50), Import AI AGI Economy #447/Import AI (5.40). 4 skipped (scores 3.80–4.70). New source added: Live Science."
     }
   ],
   "stats": {
-    "totalRuns": 8,
-    "totalSources": 29,
+    "totalRuns": 9,
+    "totalSources": 30,
     "trendEligibleSources": [
       "CNBC",
       "MIT Technology Review",
       "The New Stack",
       "TechCrunch",
       "The Decoder",
-      "VentureBeat"
+      "VentureBeat",
+      "Import AI",
+      "Fortune"
     ],
     "improving": 0,
     "declining": 0,
