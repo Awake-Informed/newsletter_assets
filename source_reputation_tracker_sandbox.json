@@ -24,13 +24,21 @@
     }
   },
   "sources": {
-    "Al Jazeera": {
-      "domain": "aljazeera.com",
+    "AI2Work": {
+      "domain": "ai2work.com",
       "tier": "D",
-      "overallAvg": 8.8,
+      "overallAvg": 6.5,
       "appearances": 1,
       "trend": "new",
       "notes": "Single appearance"
+    },
+    "Al Jazeera": {
+      "domain": "aljazeera.com",
+      "tier": "D",
+      "overallAvg": 6.25,
+      "appearances": 2,
+      "trend": "new",
+      "notes": "Two appearances; avg dropped to 6.25 (first: 8.8, today: 3.7 — fetch failure). Trend not yet evaluable."
     },
     "Anthropic": {
       "domain": "anthropic.com",
@@ -40,13 +48,21 @@
       "trend": "new",
       "notes": "Vendor primary source"
     },
-    "AI2Work": {
-      "domain": "ai2work.com",
-      "tier": "D",
-      "overallAvg": 6.5,
+    "Arm Newsroom": {
+      "domain": "newsroom.arm.com",
+      "tier": "A",
+      "overallAvg": 7.2,
       "appearances": 1,
       "trend": "new",
-      "notes": "Single appearance"
+      "notes": "First appearance; vendor primary source. AGI CPU article scored 7.2."
+    },
+    "Axios": {
+      "domain": "axios.com",
+      "tier": "D",
+      "overallAvg": 3.9,
+      "appearances": 1,
+      "trend": "new",
+      "notes": "First appearance; scored 3.9 — primary source fetch failed. Tier D pending further appearances."
     },
     "Bloomberg": {
       "domain": "bloomberg.com",
@@ -59,10 +75,10 @@
     "CNBC": {
       "domain": "cnbc.com",
       "tier": "C",
-      "overallAvg": 7.62,
-      "appearances": 6,
-      "trend": "stable",
-      "notes": "Avg declining (8.22 → 7.62); one low-scoring article (4.60, self-referential sourcing on Alibaba story). In Tier C evaluation."
+      "overallAvg": 7.09,
+      "appearances": 7,
+      "trend": "declining",
+      "notes": "Declining trend confirmed; avg dropped from 7.62 to 7.09 across 7 appearances. Two consecutive sub-5 scores (4.60 Alibaba, 3.90 Anthropic ban — both fetch failures). In Tier C evaluation."
     },
     "Dark Reading": {
       "domain": "darkreading.com",
@@ -104,13 +120,13 @@
       "trend": "stable",
       "notes": "Three appearances; avg declined to 6.93 — latest article (4.30) had broken source chain and unverified claims. Trend now evaluable."
     },
-    "The Guardian": {
-      "domain": "theguardian.com",
-      "tier": "D",
-      "overallAvg": 7.5,
-      "appearances": 1,
+    "GitHub": {
+      "domain": "github.com",
+      "tier": "C",
+      "overallAvg": null,
+      "appearances": 0,
       "trend": "new",
-      "notes": "First appearance; credible UK outlet, primary sourcing on FCA contract story solid"
+      "notes": "In Tier C evaluation. 0 appearances to date."
     },
     "Import AI": {
       "domain": "importai.substack.com",
@@ -144,14 +160,6 @@
       "trend": "new",
       "notes": "Vendor primary source"
     },
-    "MIT Technology Review": {
-      "domain": "technologyreview.com",
-      "tier": "B",
-      "overallAvg": 7.53,
-      "appearances": 6,
-      "trend": "stable",
-      "notes": "Preferred source; slight avg decline (7.73 → 7.53); AI delusions article scored 6.50 due to weak secondary chain (underlying Stanford paper not fetched)"
-    },
     "MIT News": {
       "domain": "news.mit.edu",
       "tier": "D",
@@ -160,13 +168,21 @@
       "trend": "new",
       "notes": "Single appearance"
     },
+    "MIT Technology Review": {
+      "domain": "technologyreview.com",
+      "tier": "B",
+      "overallAvg": 7.53,
+      "appearances": 6,
+      "trend": "stable",
+      "notes": "Preferred source; slight avg decline (7.73 → 7.53); AI delusions article scored 6.50 due to weak secondary chain (underlying Stanford paper not fetched)"
+    },
     "NVIDIA Newsroom": {
       "domain": "nvidia.com",
       "tier": "A",
-      "overallAvg": 8.95,
-      "appearances": 2,
-      "trend": "new",
-      "notes": "Vendor primary source; two appearances"
+      "overallAvg": 8.37,
+      "appearances": 3,
+      "trend": "stable",
+      "notes": "Vendor primary source; three appearances, avg 8.37. Trend now evaluable; stable. Today's NVIDIA Agent Platform article scored 7.2."
     },
     "Reuters": {
       "domain": "reuters.com",
@@ -187,18 +203,18 @@
     "TechCrunch": {
       "domain": "techcrunch.com",
       "tier": "D",
-      "overallAvg": 7.49,
-      "appearances": 14,
-      "trend": "stable",
-      "notes": "Stable overall but recent quality uneven; avg declined from 7.86 to 7.49 — today included one very low score (3.80, unverifiable/thin coverage). Mixed bag of strong investigative pieces and weak self-referential articles."
+      "overallAvg": 7.24,
+      "appearances": 15,
+      "trend": "declining",
+      "notes": "Now declining trend; avg dropped from 7.49 to 7.24 across 15 appearances. Recent 3-run average (~5.47) significantly below overall — today's article (3.7, fetch failure) continues a pattern of low-scoring pieces alongside strong investigative work. Was stable."
     },
     "The Batch": {
       "domain": "deeplearning.ai",
       "tier": "B",
-      "overallAvg": null,
-      "appearances": 0,
+      "overallAvg": 3.5,
+      "appearances": 1,
       "trend": "new",
-      "notes": "Preferred source. Andrew Ng / DeepLearning.AI. 0 appearances to date."
+      "notes": "Preferred source (Andrew Ng / DeepLearning.AI). First appearance scored 3.5 due to both primary source fetch failures — reflects fetch infrastructure, not editorial quality."
     },
     "The Decoder": {
       "domain": "the-decoder.com",
@@ -208,6 +224,14 @@
       "trend": "stable",
       "notes": "Stable"
     },
+    "The Guardian": {
+      "domain": "theguardian.com",
+      "tier": "D",
+      "overallAvg": 7.5,
+      "appearances": 1,
+      "trend": "new",
+      "notes": "First appearance; credible UK outlet, primary sourcing on FCA contract story solid"
+    },
     "The New Stack": {
       "domain": "thenewstack.io",
       "tier": "B",
@@ -215,6 +239,14 @@
       "appearances": 5,
       "trend": "stable",
       "notes": "Preferred source; strong security audit coverage"
+    },
+    "The White House": {
+      "domain": "whitehouse.gov",
+      "tier": "A",
+      "overallAvg": 7.2,
+      "appearances": 1,
+      "trend": "new",
+      "notes": "First appearance; government primary source. Trump AI Legislative Framework press release scored 7.2."
     },
     "Townhall": {
       "domain": "townhall.com",
@@ -250,14 +282,6 @@
     },
     "arXiv": {
       "domain": "arxiv.org",
-      "tier": "C",
-      "overallAvg": null,
-      "appearances": 0,
-      "trend": "new",
-      "notes": "In Tier C evaluation. 0 appearances to date."
-    },
-    "GitHub": {
-      "domain": "github.com",
       "tier": "C",
       "overallAvg": null,
       "appearances": 0,
@@ -582,6 +606,109 @@
           "misrepresentationFlags": "None identified"
         }
       ]
+    },
+    {
+      "runId": "AI-20260325-sandbox",
+      "date": "25 March 2026",
+      "type": "test",
+      "articles": [
+        {
+          "source": "TechCrunch",
+          "date": "24 Mar 2026",
+          "title": "Anthropic hands Claude Code more control, but keeps it on a leash",
+          "topics": ["tools"],
+          "subtags": ["agentic AI", "developer tools", "AI engineering", "AI safety"],
+          "score": 3.7,
+          "newsletterTier": "skipped",
+          "tier": "D",
+          "sourcingNote": "1 primary source cited, 0 fetched. Unverifiable — primary source fetch failed.",
+          "misrepresentationFlags": "None detectable"
+        },
+        {
+          "source": "Axios",
+          "date": "24 Mar 2026",
+          "title": "OpenAI will shutter Sora video app",
+          "topics": ["tools"],
+          "subtags": ["OpenAI", "model release", "AI tools", "venture capital"],
+          "score": 3.9,
+          "newsletterTier": "skipped",
+          "tier": "D",
+          "sourcingNote": "1 primary source cited, 0 fetched. Unverifiable — primary source fetch failed.",
+          "misrepresentationFlags": "None detectable"
+        },
+        {
+          "source": "CNBC",
+          "date": "24 Mar 2026",
+          "title": "Judge says government's Anthropic ban looks like punishment",
+          "topics": ["safety"],
+          "subtags": ["Anthropic", "AI governance", "AI safety", "military AI", "autonomous weapons"],
+          "score": 3.9,
+          "newsletterTier": "skipped",
+          "tier": "C",
+          "sourcingNote": "1 primary source cited, 0 fetched. Unverifiable — primary source fetch failed.",
+          "misrepresentationFlags": "None detectable"
+        },
+        {
+          "source": "Arm Newsroom",
+          "date": "24 Mar 2026",
+          "title": "Arm debuts first in-house chip with AGI CPU",
+          "topics": ["research"],
+          "subtags": ["AI chips", "AI infrastructure", "enterprise AI"],
+          "score": 7.2,
+          "newsletterTier": "hm",
+          "tier": "A",
+          "sourcingNote": "Vendor primary source; article IS the primary source. Specific technical specifications internally consistent.",
+          "misrepresentationFlags": "None"
+        },
+        {
+          "source": "The Batch",
+          "date": "20 Mar 2026",
+          "title": "Attacks On Data Centers, Qwen3.5 In All Sizes, DeepSeek's Huawei Play, and more...",
+          "topics": ["research", "business"],
+          "subtags": ["AI research", "Chinese AI", "open-source AI", "AI infrastructure", "export controls"],
+          "score": 3.5,
+          "newsletterTier": "skipped",
+          "tier": "B",
+          "sourcingNote": "2 primary sources cited, 0 fetched. Unverifiable — both primary source fetches failed. Score reflects fetch failure, not editorial quality.",
+          "misrepresentationFlags": "None detectable"
+        },
+        {
+          "source": "Al Jazeera",
+          "date": "20 Mar 2026",
+          "title": "Three charged in the US with smuggling AI chips into China",
+          "topics": ["safety"],
+          "subtags": ["export controls", "AI chips", "Chinese AI"],
+          "score": 3.7,
+          "newsletterTier": "skipped",
+          "tier": "D",
+          "sourcingNote": "1 primary source cited, 0 fetched. Unverifiable — primary source fetch failed.",
+          "misrepresentationFlags": "None detectable"
+        },
+        {
+          "source": "NVIDIA Newsroom",
+          "date": "16 Mar 2026",
+          "title": "NVIDIA Ignites the Next Industrial Revolution in Knowledge Work With Open Agent Development Platform",
+          "topics": ["tools"],
+          "subtags": ["agentic AI", "AI infrastructure", "enterprise AI", "developer tools", "AI engineering"],
+          "score": 7.2,
+          "newsletterTier": "hm",
+          "tier": "A",
+          "sourcingNote": "Vendor primary source; article IS the primary source. Self-reported announcements accurate.",
+          "misrepresentationFlags": "None"
+        },
+        {
+          "source": "The White House",
+          "date": "20 Mar 2026",
+          "title": "President Donald J. Trump Unveils National AI Legislative Framework",
+          "topics": ["safety", "business"],
+          "subtags": ["AI governance", "federal preemption", "AI regulation"],
+          "score": 7.2,
+          "newsletterTier": "hm",
+          "tier": "A",
+          "sourcingNote": "Government primary source; article IS the primary source. Official policy document, self-reported.",
+          "misrepresentationFlags": "None"
+        }
+      ]
     }
   ],
   "subscribers": {
@@ -595,134 +722,38 @@
         "safety": 0.25
       },
       "subtagWeights": {
-        "agentic AI": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI infrastructure": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "enterprise AI": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI chips": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI safety": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI governance": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "OpenAI": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "Anthropic": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "MCP": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI engineering": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "developer tools": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "inference": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "cloud AI": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "military AI": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "autonomous weapons": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "model release": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI research": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "hallucinations": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "image generation": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI regulation": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "chatbot safety": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "deepfakes": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI security": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "prompt injection": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "Chinese AI": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "open-source AI": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI tools": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "export controls": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "federal preemption": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "world models": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "venture capital": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "Nvidia GTC": {
-          "weight": 0,
-          "lastConfirmed": null
-        }
+        "agentic AI": { "weight": 0, "lastConfirmed": null },
+        "AI infrastructure": { "weight": 0, "lastConfirmed": null },
+        "enterprise AI": { "weight": 0, "lastConfirmed": null },
+        "AI chips": { "weight": 0, "lastConfirmed": null },
+        "AI safety": { "weight": 0, "lastConfirmed": null },
+        "AI governance": { "weight": 0, "lastConfirmed": null },
+        "OpenAI": { "weight": 0, "lastConfirmed": null },
+        "Anthropic": { "weight": 0, "lastConfirmed": null },
+        "MCP": { "weight": 0, "lastConfirmed": null },
+        "AI engineering": { "weight": 0, "lastConfirmed": null },
+        "developer tools": { "weight": 0, "lastConfirmed": null },
+        "inference": { "weight": 0, "lastConfirmed": null },
+        "cloud AI": { "weight": 0, "lastConfirmed": null },
+        "military AI": { "weight": 0, "lastConfirmed": null },
+        "autonomous weapons": { "weight": 0, "lastConfirmed": null },
+        "model release": { "weight": 0, "lastConfirmed": null },
+        "AI research": { "weight": 0, "lastConfirmed": null },
+        "hallucinations": { "weight": 0, "lastConfirmed": null },
+        "image generation": { "weight": 0, "lastConfirmed": null },
+        "AI regulation": { "weight": 0, "lastConfirmed": null },
+        "chatbot safety": { "weight": 0, "lastConfirmed": null },
+        "deepfakes": { "weight": 0, "lastConfirmed": null },
+        "AI security": { "weight": 0, "lastConfirmed": null },
+        "prompt injection": { "weight": 0, "lastConfirmed": null },
+        "Chinese AI": { "weight": 0, "lastConfirmed": null },
+        "open-source AI": { "weight": 0, "lastConfirmed": null },
+        "AI tools": { "weight": 0, "lastConfirmed": null },
+        "export controls": { "weight": 0, "lastConfirmed": null },
+        "federal preemption": { "weight": 0, "lastConfirmed": null },
+        "world models": { "weight": 0, "lastConfirmed": null },
+        "venture capital": { "weight": 0, "lastConfirmed": null },
+        "Nvidia GTC": { "weight": 0, "lastConfirmed": null }
       },
       "sourceWeights": {},
       "feedbackLog": [],
@@ -734,7 +765,8 @@
         "AI-20260322-test",
         "AI-20260323-test",
         "AI-20260323",
-        "AI-20260324-sandbox"
+        "AI-20260324-sandbox",
+        "AI-20260325-sandbox"
       ]
     },
     "jcampbell2@lululemon.com": {
@@ -747,134 +779,38 @@
         "safety": 0.25
       },
       "subtagWeights": {
-        "agentic AI": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI infrastructure": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "enterprise AI": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI chips": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI safety": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI governance": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "OpenAI": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "Anthropic": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "MCP": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI engineering": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "developer tools": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "inference": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "cloud AI": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "military AI": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "autonomous weapons": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "model release": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI research": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "hallucinations": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "image generation": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI regulation": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "chatbot safety": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "deepfakes": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI security": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "prompt injection": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "Chinese AI": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "open-source AI": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "AI tools": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "export controls": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "federal preemption": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "world models": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "venture capital": {
-          "weight": 0,
-          "lastConfirmed": null
-        },
-        "Nvidia GTC": {
-          "weight": 0,
-          "lastConfirmed": null
-        }
+        "agentic AI": { "weight": 0, "lastConfirmed": null },
+        "AI infrastructure": { "weight": 0, "lastConfirmed": null },
+        "enterprise AI": { "weight": 0, "lastConfirmed": null },
+        "AI chips": { "weight": 0, "lastConfirmed": null },
+        "AI safety": { "weight": 0, "lastConfirmed": null },
+        "AI governance": { "weight": 0, "lastConfirmed": null },
+        "OpenAI": { "weight": 0, "lastConfirmed": null },
+        "Anthropic": { "weight": 0, "lastConfirmed": null },
+        "MCP": { "weight": 0, "lastConfirmed": null },
+        "AI engineering": { "weight": 0, "lastConfirmed": null },
+        "developer tools": { "weight": 0, "lastConfirmed": null },
+        "inference": { "weight": 0, "lastConfirmed": null },
+        "cloud AI": { "weight": 0, "lastConfirmed": null },
+        "military AI": { "weight": 0, "lastConfirmed": null },
+        "autonomous weapons": { "weight": 0, "lastConfirmed": null },
+        "model release": { "weight": 0, "lastConfirmed": null },
+        "AI research": { "weight": 0, "lastConfirmed": null },
+        "hallucinations": { "weight": 0, "lastConfirmed": null },
+        "image generation": { "weight": 0, "lastConfirmed": null },
+        "AI regulation": { "weight": 0, "lastConfirmed": null },
+        "chatbot safety": { "weight": 0, "lastConfirmed": null },
+        "deepfakes": { "weight": 0, "lastConfirmed": null },
+        "AI security": { "weight": 0, "lastConfirmed": null },
+        "prompt injection": { "weight": 0, "lastConfirmed": null },
+        "Chinese AI": { "weight": 0, "lastConfirmed": null },
+        "open-source AI": { "weight": 0, "lastConfirmed": null },
+        "AI tools": { "weight": 0, "lastConfirmed": null },
+        "export controls": { "weight": 0, "lastConfirmed": null },
+        "federal preemption": { "weight": 0, "lastConfirmed": null },
+        "world models": { "weight": 0, "lastConfirmed": null },
+        "venture capital": { "weight": 0, "lastConfirmed": null },
+        "Nvidia GTC": { "weight": 0, "lastConfirmed": null }
       },
       "sourceWeights": {},
       "feedbackLog": [],
@@ -968,11 +904,20 @@
       "featured": 1,
       "hm": 3,
       "notes": "Sandbox test run. Featured: NVIDIA Rubin Platform/NVIDIA Newsroom (8.80). HMs: Mistral Forge/TechCrunch (6.80), AI-Fuelled Delusions/MIT Technology Review (6.50), Import AI AGI Economy #447/Import AI (5.40). 4 skipped (scores 3.80–4.70). New source added: Live Science."
+    },
+    {
+      "runId": "AI-20260325-sandbox",
+      "date": "25 Mar 2026",
+      "type": "test",
+      "subscribers": ["jmc04g@gmail.com"],
+      "featured": 0,
+      "hm": 3,
+      "notes": "Sandbox test run. No featured articles (all below 8.0). HMs: Arm AGI CPU/Arm Newsroom (7.2), NVIDIA Agent Platform/NVIDIA Newsroom (7.2), Trump AI Framework/The White House (7.2). 5 skipped (scores 3.5–3.9, mostly fetch failures). New sources added: Arm Newsroom, The White House, Axios. The Batch first appearance (3.5, fetch failures only — not reflective of editorial quality). TechCrunch and CNBC trends moved to declining."
     }
   ],
   "stats": {
-    "totalRuns": 9,
-    "totalSources": 30,
+    "totalRuns": 10,
+    "totalSources": 33,
     "trendEligibleSources": [
       "CNBC",
       "MIT Technology Review",
@@ -981,10 +926,11 @@
       "The Decoder",
       "VentureBeat",
       "Import AI",
-      "Fortune"
+      "Fortune",
+      "NVIDIA Newsroom"
     ],
     "improving": 0,
-    "declining": 0,
+    "declining": 2,
     "volatile": 0,
     "activeSubscribers": 2,
     "totalSubtags": 32,
